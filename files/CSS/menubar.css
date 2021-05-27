@@ -6,18 +6,18 @@
 }
 
 body{
+    /* background-image: url(); */
     background-size: cover;
-    background-position:center;
+    background-position: center ;
     font-family: sans-serif;
 }
 
 .menu-bar{
-    background: grey;
-    text-align: center;  
-    border-bottom-style:solid;   
+    background: grey;  /* Hintergrundfarbe Menüleiste */
+    text-align: center;
 }
 
-.menu-bar ul{
+.menu-bar ul {
     display: inline-flex;
     list-style: none;
     color: #fff;
@@ -26,23 +26,20 @@ body{
 .menu-bar ul li{
     width: 120px;
     margin: 15px;
-    padding: none;
+    padding: 15px;
 }
 
 .menu-bar ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
-.active, .menu-bar ul li a:hover 
-{
-    /* background-color: white; */
-    text-decoration: underline;
-    color: green;
+.active, .menu-bar ul li:hover{
+    background: red;    /* Farbliche Hinterlegung der aktiven Seite */
     border-radius: 3px;
 }
 
-.menu-bar .fa{
+.menu-bar .fa {
     margin-right: 8px;
 }
 
@@ -53,43 +50,38 @@ body{
 .menu-bar ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
-    z-index:1000;
-    background: rgb(0, 100, 0);
+    background: red;  /* Hintergrundfarbe des Untermenüs. */
     margin-top: 15px;
     margin-left: -15px;
 }
 
-.menu-bar ul li:hover .sub-menu-1 ul{
+.menu-bar ul li:hover .sub-menu-1 ul {   /* Ordnet die Unterpunkte des Sub-Menüs untereinander an */
     display: block;
     margin: 10px;
 }
 
-.menu-bar ul li:hover .sub-menu-1 ul li {
-    width: 150px;
+.menu-bar ul li:hover .sub-menu-1 ul li {  /* Unterstreichung der SubMenü Unterpunkte */
+    width: 150 px;
     padding: 10px;
     border-bottom: 1px dotted #fff;
     background: transparent;
     border-radius: 0;
-    text-align: left;
-
+    text-align: left; 
 }
 
-.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{ /* Keine Unterstreichung für den letzten SubMenüpunkt */
     border-bottom: none;
 }
 
-.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
-    color: white;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul li a{
-    color:white;
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{ /* Farbe der angewählten Submenüpunkte */
+    color: grey; 
 }
 
 .fa-angle-right{
-    float: right;
+    float: right;  /* Ausrichtung der Pfeile der Menüunterpunkte */
 }
 
+/*
 .sub-menu-2{
     display: none;
 }
@@ -101,51 +93,8 @@ body{
     margin-left: 140px;
     background: rgb(0,100,0);
 }
+*/
 
-.menu-bar .search-container input[type=text] { 
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
-  border:groove;
-  border-style: green;
+.logo img{
+    float:left;
   }
-  
-  
-  .menu-bar .search-container input[type=submit] {
-    float: right;
-    padding: 9px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-}
-  
-  .menu-bar .search-container input[type=submit]:hover {
-    background: green;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .menu-bar .search-container {
-      float: none;
-    }
-    .menu-bar a, .menu-bar input[type=text], .menu-bar .search-container button {
-      float: none;
-      display: block;
-      text-align: left;
-      width: 100%;
-      margin: 0;
-      padding: 14px;
-    }
-    .menu-bar input[type=text] {
-        border: 1px solid #ccc;   
-    }
-  }
-
-  .logo img{
-      float:left;
-    }
-
-
-    

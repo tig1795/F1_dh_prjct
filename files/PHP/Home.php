@@ -1,77 +1,59 @@
-<?php
-session_start(); // session_start() ermöglicht Zugriff auf den Session Cookie, der die userid beinhaltet.
-                // Ohne Session_start () könnte man sich nicht einloggen, sobald man die Login-Seite verlässt, wäre man ausgeloggt.
-                // Da nirgendwo der Loginstatus hinterlegt wäre.
+<html>
+<head>
 
-// Startseite hier können allgemeine Funktionen oder aktuelles angezeigt werden
-$server = $_SERVER["SERVER_NAME"]; //Hinterlegte Pfade
-$script = $_SERVER["SCRIPT_NAME"]; //Hinterlgete Pfade //wird vermutlich nicht benutzt. 
-require ( "funktionen.php" );
+<title>F1</title>
+<link rel="stylesheet" href="../CSS/menubar.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-// Menükategorien: index rezepte magazin community videos dinner meinkochbuch
-$title ="index";
-my_html_head ( $title );  
-
-$name_der_db  = "chefkoch";
-$benutzer     = "root";
-$passwort     = "";
-$tabellenname = "rezepte";
-
-$link = our_sql_connect ( $server, $benutzer, $passwort, $name_der_db );
-  
-$username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid überprüft.
-
-
-print <<<EndOfHtml
-<div style="text-align: center;">
-  <p>  
-    <h2>Prototype</h2><br>
-    <p>First Version.</p><br>
-  </p>
-  </div>
-  <!-- Slide Show -->
-  <div class="slideshow-container">
-   <!-- Full-width images with number and caption text -->
-   <div class="mySlides fade">
-     <div class="numbertext">1 / 3</div>
-     <div style="text-align: center;">
-       <object data="http://www.youtube.com/embed/PJvf5pF55cA"
-       width="860" height="515"></object>
-     </div>
-   </div>
-   
-   <div class="mySlides fade">
-     <div class="numbertext">2 / 3</div>
-     <div style="text-align: center;">
-       <object data="http://www.youtube.com/embed/M34tzv5ZMTA"
-       width="860" height="515"></object>
-     </div>
-   </div>
- 
-   <div class="mySlides fade">
-     <div class="numbertext">3 / 3</div>
-     <img src="../../images/essen-teller-gerichte-quelle-fotolia-nitr.jpg" style="width:100%">
-   </div>
- 
-   <!-- Next and previous buttons -->
-   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-   <a class="next" onclick="plusSlides(1)">&#10095;</a>
- </div>
- <br>
- 
- <!-- The dots/circles -->
- <div style="text-align:center">
-   <span class="dot" onclick="currentSlide(1)"></span>
-   <span class="dot" onclick="currentSlide(2)"></span>
-   <span class="dot" onclick="currentSlide(3)"></span>
- </div>
- <script src="../JavaScript/script.js"></script><br>
- <br>
-  
-EndOfHtml;
-
-
-
-
-my_html_foot ( );
-?>
+<body>
+    <div class="menu-bar">
+    <div class="logo">
+      <a href="Home.php"><img src="../../images/F1_Logo.png" alt="" width="140" height="80"/></a>
+    </div>
+<ul>
+<li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+<li><a href="#"><i class="fa fa-calculator"></i>Statistik</a>
+    <div class="sub-menu-1">
+        <ul>
+            <li><a href="#">Mission</a></li>
+            <li><a href="#">Vision</a></li>
+            <li><a href="#">Team</a></li>
+        </ul>
+    </div>
+</li>
+<li><a href="#"><i class="fa fa-car"></i>Fahrer</a>
+    <div class="sub-menu-1">
+        <ul>
+            <li><a href="#">Web Designing</a></li>
+            <li class="hover-me"><a href="#">Marketing</a><!-- <i class="fa fa-angle-right"></i> -->
+              <!--<div class="sub-menu-2">
+                <ul>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">Social Media</a></li>
+                    <li><a href="#">Emial Marketing</a></li>
+                </ul>
+              </div>  -->          
+            </li>
+            <li class="hover-me"><a href="#">Mobile App</a><!-- <i class="fa fa-angle-right"></i> -->
+            <!-- <div class="sub-menu-2">
+                <ul>
+                    <li><a href="#">Android App</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Ionic App</a></li>
+                    <li><a href="#">Flutter App</a></li>
+                    <li><a href="#">Unity App</a></li>
+                </ul>
+              </div>  -->        
+          </li>
+        </ul>
+    </div>
+</li>
+<li><a href="#"><i class="fa fa-trophy"></i>Pokale</a></li>
+<li><a href="#"><i class="fa fa-calendar"></i>Kalender</a></li>
+<li><a href="#"><i class="fa fa-info"></i>About</a></li>
+<li><a href="#"><i class="fa fa-user-circle-o"></i>Login</a></li>
+</ul>
+</div>
+</body>
+</html>
