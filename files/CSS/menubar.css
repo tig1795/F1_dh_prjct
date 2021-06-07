@@ -98,3 +98,11 @@ body{
 .logo img{
     float:left;
   }
+
+/*Bezieht sich auf den Text unter dem Menüpunkt "About" */
+.info{
+    color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: white;
+}

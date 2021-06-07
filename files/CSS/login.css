@@ -1,0 +1,75 @@
+/* Zentrieren des Logos */
+
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #b5b5b5;
+}
+
+.logo-row {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+/* Login Interface */
+
+:root {
+    --desktop-font-size: 16px;
+    --mobile-font-size: 22px;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 10px 20px;
+}
+
+form {
+    margin: 0 auto;    /* Positionierung der Eingabeoberfläche */
+    max-width: 500px;
+}
+
+input { /* Design der Eingabeoberfläche */
+    border: 1px solid #ccc;
+    font-size: 22px;
+    font-size: var(--mobile-font-size);
+    padding: 15px;
+    width: 90%;
+    width: calc(100% - 30px); /* volle Breite minus Füllung */
+} 
+
+input[type=email]:not(:focus):invalid,
+input[type=password]:not(:focus):invalid {
+    color: red;
+    outline-color: red;
+ } /* Rote Umfärbung der Eingabeleisten, bei fehlerhafter Eingabe. */
+
+ input[type=submit]{ /* Design des Knopfes */
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #444;
+    cursor: pointer;
+    display: block;
+    font-size: 22px;
+    font-size: var(--mobile-font-size);
+    font-weight: 500;
+    margin: 3px 0 0 0;
+    padding: 10px;
+}
+
+form input[type=submit]:hover {
+    background-color: red;
+    color: white;
+}
