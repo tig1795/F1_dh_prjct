@@ -16,7 +16,7 @@
 <li><a href="#"><i class="fa fa-calculator"></i>Statistik</a>
     <div class="sub-menu-1">
         <ul>
-            <li><a href="#">Mission</a></li>
+            <li><a href="index.php">Fahrerwertung</a></li>
             <li><a href="#">Vision</a></li>
             <li><a href="#">Team</a></li>
         </ul>
