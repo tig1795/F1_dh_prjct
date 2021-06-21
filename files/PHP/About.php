@@ -14,12 +14,12 @@
       <a href="Home.php"><img src="../../images/F1_Logo.png" alt="" width="140" height="80"/></a>
     </div>
 <ul>
-<li class="#"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+<li class="#"><a href="Home.php"><i class="fa fa-home"></i>Home</a></li>
 <li><a href="#"><i class="fa fa-calculator"></i>Statistik</a>
     <div class="sub-menu-1">
         <ul>
             <li><a href="index.php">Fahrerwertung</a></li>
-            <li><a href="#">Vision</a></li>
+            <li><a href="constructeur.php">Konstrukteure</a></li>
             <li><a href="#">Team</a></li>
         </ul>
     </div>
@@ -69,8 +69,8 @@
 <p>Die dargestellten Informationen auf dieser Website stammen aus folgenden Quellen:</p>
     </br>
 <li>https://www.formula1.com/</li>
-<li>https://www.formel1.de/rennergebnisse/wm-stand/2000/fahrerwertung</li>
-<li>https://www.formel1.de/rennergebnisse/wm-stand/2001/fahrerwertung</li>
+<li>https://de.wikipedia.org/wiki/Liste_der_Formel-1-Weltmeister</li>
+<li>https://de.wikipedia.org/wiki/Formel-1-Statistik</li>
 
 </body>
 </html>

@@ -1,14 +1,14 @@
 <?php
 include 'DBController.php';
 $db_handle = new DBController();
-$countryResult = $db_handle->runQuery("SELECT DISTINCT Champion FROM f1_driver_wm_standings ORDER BY Champion ASC");
+$countryResult = $db_handle->runQuery("SELECT DISTINCT Constructor FROM f1_team_wm_standings ORDER BY Constructor ASC");
 ?>
 <html>
 <head>
 <link rel="stylesheet" href="../CSS/menubar.css">
 <link rel="stylesheet" href="../CSS/table.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title>Alle Formel 1 Weltmeister der Geschichte</title>
+<title>Alle Konstrukteur-Weltmeister der Formel 1 Geschichte</title>
 </head>
 <body>
 <div class="menu-bar">
@@ -60,16 +60,16 @@ $countryResult = $db_handle->runQuery("SELECT DISTINCT Champion FROM f1_driver_w
 </ul>
 </div>
 <br>
-    <h2>Alle Formel 1 Weltmeister der Geschichte</h2>
-    <form method="POST" name="search" action="index.php">
+    <h2>Alle Konstrukteur-Weltmeister der Formel 1 Geschichte</h2>
+    <form method="POST" name="search" action="constructeur.php">
         <div id="demo-grid">
             <div class="search-box">
-                <select id="Place" name="champion[]" multiple="multiple">
-                    <option value="0" selected="selected">Select Formula1 Champion</option>
+                <select id="Place" name="Constructor[]" multiple="multiple">
+                    <option value="0" selected="selected">Select Constructor Champion</option>
                         <?php
                         if (! empty($countryResult)) {
                             foreach ($countryResult as $key => $value) {
-                                echo '<option value="' . $countryResult[$key]['Champion'] . '">' . $countryResult[$key]['Champion'] . '</option>';
+                                echo '<option value="' . $countryResult[$key]['Constructor'] . '">' . $countryResult[$key]['Constructor'] . '</option>';
                             }
                         }
                         ?>
@@ -78,37 +78,33 @@ $countryResult = $db_handle->runQuery("SELECT DISTINCT Champion FROM f1_driver_w
             </div>
             
                 <?php
-                if (! empty($_POST['champion'])) {
+                if (! empty($_POST['Constructor'])) {
                     ?>
                     <table cellpadding="200" cellspacing="20">
 
                 <thead>
                     <tr>
-                        <th><strong>Saison</strong></th>
-                        <th><strong>GPs</strong></th>
-                        <th><strong>Champion</strong></th>
-                        <th><strong>Car</strong></th>
-                        <th><strong>Nationality</strong></th>
-                        <th><strong>Age</strong></th>
-                        <th><strong>Points</strong></th>
-                        <th><strong>Wins</strong></th>
+                        <th><strong>Constructor</strong></th>
+                        <th><strong>Country</strong></th>
+                        <th><strong>Titles</strong></th>
+                        <th><strong>Seasons</strong></th>
                     </tr>
                 </thead>
                 <tbody>
                 <?php
-                    $query = "SELECT * from f1_driver_wm_standings";
+                    $query = "SELECT * from f1_team_wm_standings";
                     $i = 0;
-                    $selectedOptionCount = count($_POST['champion']);
+                    $selectedOptionCount = count($_POST['Constructor']);
                     $selectedOption = "";
                     while ($i < $selectedOptionCount) {
-                        $selectedOption = $selectedOption . "'" . $_POST['champion'][$i] . "'";
+                        $selectedOption = $selectedOption . "'" . $_POST['Constructor'][$i] . "'";
                         if ($i < $selectedOptionCount - 1) {
                             $selectedOption = $selectedOption . ", ";
                         }
                         
                         $i ++;
                     }
-                    $query = $query . " WHERE champion in (" . $selectedOption . ")";
+                    $query = $query . " WHERE Constructor in (" . $selectedOption . ")";
                     
                     $result = $db_handle->runQuery($query);
                 }
@@ -116,15 +112,11 @@ $countryResult = $db_handle->runQuery("SELECT DISTINCT Champion FROM f1_driver_w
                     foreach ($result as $key => $value) {
                         ?>
                 <tr>
-                        <td><div class="col" id="user_data_1"><?php echo $result[$key]['Saison']; ?> </div></td>
-                        <td><div class="col" id="user_data_2"><?php echo $result[$key]['GPs']; ?> </div></td>
-                        <td><div class="col" id="user_data_3"><?php echo $result[$key]['Champion']; ?></div></td>
-                        <td><div class="col" id="user_data_4"><?php echo $result[$key]['Car']; ?> </div></td>
-                        <td><div class="col" id="user_data_5"><?php echo $result[$key]['Nationality']; ?> </div></td>
-                        <td><div class="col" id="user_data_6"><?php echo $result[$key]['Age']; ?></div></td>
-                        <td><div class="col" id="user_data_7"><?php echo $result[$key]['Points']; ?> </div></td>
-                        <td><div class="col" id="user_data_8"><?php echo $result[$key]['Wins']; ?> </div></td>
-                    </tr>
+                        <td><div class="col" id="user_data_1"><?php echo $result[$key]['Constructor']; ?> </div></td>
+                        <td><div class="col" id="user_data_2"><?php echo $result[$key]['Country']; ?> </div></td>
+                        <td><div class="col" id="user_data_3"><?php echo $result[$key]['Titles']; ?></div></td>
+                        <td><div class="col" id="user_data_4"><?php echo $result[$key]['Seasons']; ?> </div></td>
+                </tr>
                 <?php
                     }
                     ?>
