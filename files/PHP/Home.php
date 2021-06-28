@@ -50,7 +50,7 @@
     </div>
 </li>
 <li><a href="#"><i class="fa fa-trophy"></i>Pokale</a></li>
-<li><a href="#"><i class="fa fa-calendar"></i>Kalender</a></li>
+<li><a href="Map.php"><i class="fa fa-calendar"></i>Kalender</a></li>
 <li><a href="About.php"><i class="fa fa-info"></i>About</a></li>
 <li><a href="login.php"><i class="fa fa-user-circle-o"></i>Login</a></li>
 </ul>
