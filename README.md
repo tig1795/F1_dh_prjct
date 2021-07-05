@@ -2,7 +2,6 @@
 
 Nächster Schritt:
 
-- Konstrukteurstände genauso angeben wie bei den Fahrern.
 - Menüleiste passt sich noch nicht an alle Bildschirmgrößen an (Laptop und größer schon, kleiner noch nicht).
-- Name des Benutzers nach Einloggen in Menüleiste anzeigen lassen.
-- Karte implementieren
+- Rennkalender 2021 fertig in die Karte eintragen.
+- Steckbrief für berühmte Formel 1 Fahrer anlegen und mit Karte verlinken. 
