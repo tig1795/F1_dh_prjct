@@ -124,6 +124,43 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 		"<b>Dutch Grand Prix </b> <p> Im Rennkalender: 1952, 1953, 1955, 1958–1971, 1973–1985, ab 2021 <br> Streckenlänge: 4,252 km <br> Rennlänge: 301,892 km in 71 Runden <br> Rundenrekord: 1:16,538 (1985, Alain Prost, McLaren-TAG) <br> Rundenrekord Qualifikation: 1:11,074 (1985, Nelson Piquet, Brabham-BMW) <br> Die meisten Siege: Jim Clark (4) <br> Die meisten Poles: René Arnoux (3)"
 	).addTo(meineKarte);
 
+  var meinMarker = L.marker([45.62231406137463, 9.28607967260212]).bindPopup(
+		"<b>Italian Grand Prix </b> <p> Im Rennkalender: seit 1950 <br> Streckenlänge: 5,793 km <br> Rennlänge: 306,720 km in 53 Runden <br> Rundenrekord: 1:21,046 (2004, Rubens Barrichello, Ferrari) <br> Rundenrekord Qualifikation: 1:18,887 (2020, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Lewis Hamilton/Michael Schumacher (je 5) <br> Die meisten Poles: Lewis Hamilton (7)"
+	).addTo(meineKarte);
+
+  var meinMarker = L.marker([43.41012537125325, 39.96973450046644]).bindPopup(
+		"<b>Russian Grand Prix </b> <p> Im Rennkalender: seit 2014 <br> Streckenlänge: 5,848 km <br> Rennlänge: 309,944 km in 53 Runden <br> Rundenrekord: 1:35,761 (2019, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:31,304 (2020, Lewis Hamilton, Mercedes)  <br> Die meisten Siege: Lewis Hamilton (4) <br> Die meisten Poles: Lewis Hamilton/Nico Rosberg (2)"
+	).addTo(meineKarte);
+  
+  var meinMarker = L.marker([40.95805171866285, 29.412393729206062]).bindPopup(
+		"<b>Turkish Grand Prix </b> <p> Im Rennkalender: 2005–2011, 2020–2021 <br> Streckenlänge: 5,338 km <br> Rennlänge: 309,396 km in 58 Runden <br> Rundenrekord: 1:24,770 (2005, Juan Pablo Montoya, McLaren-Mercedes) <br> Rundenrekord Qualifikation: 1:25,049 (2011, Sebastian Vettel, Red Bull-Renault) <br> Die meisten Siege: Felipe Massa (3) <br> Die meisten Poles: Felipe Massa (3)"
+	).addTo(meineKarte);
+
+  var meinMarker = L.marker([34.845672726263665, 136.53947790993766]).bindPopup(
+		"<b>Japanese Grand Prix </b> <p> Im Rennkalender: 1976–1977, seit 1987 <br> Streckenlänge: 5,807 km <br> Rennlänge: 307,573 km in 53 Runden <br> Rundenrekord: 1:30,983 (2019, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:27,064 (2019, Sebastian Vettel, Ferrari) <br> Die meisten Siege: Michael Schumacher (6) <br> Die meisten Poles: Michael Schumacher (8)"
+	).addTo(meineKarte);
+
+  var meinMarker = L.marker([30.13471996403446, -97.63504644046603]).bindPopup(
+		"<b>United States Grand Prix </b> <p> Im Rennkalender: 1959–2019 <br> Streckenlänge: 5,516 km <br> Rennlänge: 308,896 km in 56 Runden <br> Rundenrekord: 1:36,169 (2019, Charles Leclerc, Ferrari) <br> Rundenrekord Qualifikation: 1:32,029 (2019, Valtteri Bottas, Mercedes) <br> Die meisten Siege: Lewis Hamilton (6) <br> Die meisten Poles: Lewis Hamilton/Michael Schumacher (je 4)"
+	).addTo(meineKarte);
+
+  var meinMarker = L.marker([19.405985264147436, -99.09198516161604]).bindPopup(
+		"<b>Mexican Grand Prix </b> <p> Im Rennkalender: 1963–1970, 1986–1992, seit 2015 <br> Streckenlänge: 4,304 km <br> Rennlänge: 305,584 km in 71 Runden <br> Rundenrekord: 1:18,741 (2018, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:14,758 (2019, Max Verstappen, Red Bull-Honda) <br> Die meisten Siege: Jim Clark/Lewis Hamilton/Nigel Mansell/Alain Prost/Max Verstappen (je 2) <br> Die meisten Poles: Jim Clark (4)"
+	).addTo(meineKarte);
+
+  var meinMarker = L.marker([-23.70107692161238, -46.69711755395441]).bindPopup(
+		"<b>Brazilian Grand Prix </b> <p> Im Rennkalender: 1973–2019 <br> Streckenlänge: 4,309 km <br> Rennlänge: 305,909 km in 71 Runden <br> Rundenrekord: 1:10,540 (2018, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:07,281 (2018, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Alain Prost (6) <br> Die meisten Poles: Ayrton Senna (6)"
+	).addTo(meineKarte);
+
+  var meinMarker = L.marker([22.29758599323335, 40.4121185743208]).bindPopup(
+		"<b>Saudi Arabian Grand Prix </b> <p> Im Rennkalender: 2021 <br> Streckenlänge: 6,175 km <br> Rennlänge: - <br> Rundenrekord: - <br> Rundenrekord Qualifikation: - <br> Die meisten Siege: - <br> Die meisten Poles: -"
+	).addTo(meineKarte);
+
+  var meinMarker = L.marker([24.475282858542098, 54.60522324381918]).bindPopup(
+		"<b>Abu Dhabi Grand Prix </b> <p> Im Rennkalender: seit 2009 <br> Streckenlänge: 5,554 km <br> Rennlänge: 305,355 km in 55 Runden <br> Rundenrekord: 1:39,283 (2019, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:34,779 (2019, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Lewis Hamilton (5) <br> Die meisten Poles: Lewis Hamilton (5)"
+	).addTo(meineKarte);
+
+	
 	</script>
 	</div>
   </body>

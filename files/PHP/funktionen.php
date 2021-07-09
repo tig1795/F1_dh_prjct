@@ -63,14 +63,14 @@ function my_html_head ( $title) {
         </li>
   EOH;
   
-  active_or_hover ($title, "magazin");
+  active_or_hover ($title, "fahrer");
   
   print <<<EOH
   
   <a href="#"><i class="fa fa-car"></i>Fahrer</a>
     <div class="sub-menu-1">
         <ul>
-            <li><a href="#">Web Designing</a></li>
+            <li><a href="MSC.php">Michael Schumacher</a></li>
             <li class="hover-me"><a href="#">Marketing</a>
             </li>
             <li class="hover-me"><a href="#">Mobile App</a>    
