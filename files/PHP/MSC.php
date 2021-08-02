@@ -163,16 +163,16 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
              </div>
              <div class="data">
                <p class="semi-bold">Youtube</p>
-               <p>Stephen@youtube</p>
+               <a style="color: white; text-decoration: none" href="https://www.youtube.com/michaelschumacherofficial" target="_blank"><p>Michael Schumacher</p></a>
              </div>
            </li>
            <li>
              <div class="icon">
-               <i class="fab fa-linkedin"></i>
+                <i class="fab fa-instagram"></i>
              </div>
              <div class="data">
-               <p class="semi-bold">Linkedin</p>
-               <p>Stephen@linkedin</p>
+               <p class="semi-bold">Instagram</p>
+               <a style="color: white; text-decoration: none" href="https://www.instagram.com/michaelschumacher/" target="_blank"><p>@michaelschumacher</p></a>
              </div>
            </li>
          </ul>
@@ -182,73 +182,88 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
   <div class="resume_right">
     <div class="resume_item resume_about">
         <div class="title">
-           <p class="bold">About us</p>
+           <p class="bold">Einführung</p>
          </div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis illo fugit officiis distinctio culpa officia totam atque exercitationem inventore repudiandae?</p>
+        <p>Michael Schumacher (* 3. Januar 1969 in Hürth, Nordrhein-Westfalen) ist ein ehemaliger deutscher Automobilrennfahrer. 
+           Schumacher startete von 1991 bis 2006 sowie von 2010 bis 2012 bei insgesamt 307 Großen Preisen der Formel-1-Weltmeisterschaft. 
+           Er hält die Rekorde von 7 Weltmeistertiteln, zusammen mit Lewis Hamilton (seit 2020) und den Rekord für die 77 schnellsten Rennrunden.</p>
     </div>
     <div class="resume_item resume_work">
         <div class="title">
-           <p class="bold">Work Experience</p>
+           <p class="bold">Team-Stationen</p>
          </div>
         <ul>
             <li>
-                <div class="date">2013 - 2015</div> 
+                <div class="date">1991</div> 
                 <div class="info">
-                     <p class="semi-bold">Lorem ipsum dolor sit amet.</p> 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                     <p class="semi-bold">Jordan Grand Prix</p> 
+                  <p>Formel 1 Debut am 25.08.1991 in Spa-Francochamps (Belgien)</p>
                 </div>
             </li>
             <li>
-              <div class="date">2015 - 2017</div>
+              <div class="date">1991–1995</div>
               <div class="info">
-                     <p class="semi-bold">Lorem ipsum dolor sit amet.</p> 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                     <p class="semi-bold">Benetton Ford/Renault</p> 
+                  <p>Formel1 Weltmeister 1994 und 1995</p>
                 </div>
             </li>
             <li>
-              <div class="date">2017 - Present</div>
+              <div class="date">1996–2006</div>
               <div class="info">
-                     <p class="semi-bold">Lorem ipsum dolor sit amet.</p> 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                     <p class="semi-bold">Scuderia Ferrari</p> 
+                  <p>Formel 1 Weltmeister von 2000 bis 2004</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2010–2012</div>
+              <div class="info">
+                     <p class="semi-bold">Mercedes AMG Petronas</p> 
+                  <p>Letzte Pole-Position in Monaco 2012</p>
                 </div>
             </li>
         </ul>
     </div>
     <div class="resume_item resume_education">
       <div class="title">
-           <p class="bold">Education</p>
+           <p class="bold">Meilensteine seiner Karriere</p>
          </div>
       <ul>
             <li>
-                <div class="date">2010 - 2013</div> 
+                <div class="date">1992</div> 
                 <div class="info">
-                     <p class="semi-bold">Web Designing (Texas University)</p> 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                     <p class="semi-bold">Erster Formel 1 Sieg</p> 
+                  <p> Am 30.08.1992 auf dem Circuit de Spa-Francorchamps in Belgien</p>
                 </div>
             </li>
             <li>
-              <div class="date">2000 - 2010</div>
+              <div class="date">1994</div>
               <div class="info">
-                     <p class="semi-bold">Texas International School</p> 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                     <p class="semi-bold">Gewinn des ersten Formel 1 Weltmeistertitels</p> 
+                  <p>Am 13. November 1994 auf dem Adelaide Street Circuit in Australien</p>
                 </div>
             </li>
+            <li>
+              <div class="date">2000</div>
+              <div class="info">
+                     <p class="semi-bold">Gewinn des ersten Formel 1 Weltmeistertitels mit Ferrari</p> 
+                  <p>Am 8. Oktober 2000 auf dem Suzuka International Racing Course in Japan</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2004</div>
+              <div class="info">
+                     <p class="semi-bold">Gewinn des siebten Formel 1 Weltmeistertitels</p> 
+                  <p>Am 29. August 2004 auf dem Circuit de Spa-Francorchamps in Belgien. Mit nun 7 Weltmeistertiteln ist 
+                    Michael Schumacher der alleinige Rekordweltmeister in der Formel 1.</p>
+              </div>
+            </li>
         </ul>
-    </div>
-    <div class="resume_item resume_hobby">
-      <div class="title">
-           <p class="bold">Hobby</p>
-         </div>
-       <ul>
-         <li><i class="fas fa-book"></i></li>
-         <li><i class="fas fa-gamepad"></i></li>
-         <li><i class="fas fa-music"></i></li>
-         <li><i class="fab fa-pagelines"></i></li>
-      </ul>
     </div>
 </div>
 </div>
 
 </body>
 </html>
+
+
 
