@@ -21,4 +21,23 @@ $link = our_sql_connect ( $server, $benutzer, $passwort, $name_der_db );
   
 $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid überprüft.
 
+print <<<EOH
+        <div style="text-align: center;">
+        <p>
+        <br>  
+        <h2>Welcome to Formula 1!</h2>
+        <br>
+        </p>
+        </div>
+        <br>
+      <div style="text-align: center;">
+        <object data="https://www.youtube.com/embed/Sg7-C973cdM" width="860" height="515"></object>
+      </div>
+      <br>
+      <br>
+EOH;
+
+
+my_html_foot()
+
 ?>

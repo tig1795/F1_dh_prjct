@@ -25,6 +25,7 @@ function my_html_head ( $title) {
 
   <title>F1</title>
   <link rel="stylesheet" href="../CSS/menubar.css">
+  <link rel="stylesheet" href="../CSS/Fußzeile.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   
@@ -46,12 +47,11 @@ function my_html_head ( $title) {
   active_or_hover ($title, "statistik");
   
   print <<<EOH
-  <a href="#"><i class="fa fa-calculator"></i>Statistik</a>
+  <a href="#"><i class="fa fa-calculator"></i>Statistics</a>
     <div class="sub-menu-1">
         <ul>
             <li><a href="index.php">Fahrerwertung</a></li>
             <li><a href="constructeur.php">Konstrukteure</a></li>
-            <li><a href="#">Team</a></li>
         </ul>
                 
                   
@@ -67,7 +67,7 @@ function my_html_head ( $title) {
   
   print <<<EOH
   
-  <a href="#"><i class="fa fa-car"></i>Fahrer</a>
+  <a href="#"><i class="fa fa-car"></i>Legends</a>
     <div class="sub-menu-1">
         <ul>
             <li><a href="MSC.php">Michael Schumacher</a></li>
@@ -82,20 +82,20 @@ function my_html_head ( $title) {
   active_or_hover ($title, "community");
   
   print <<<EOH
-  <a href="#"><i class="fa fa-trophy"></i>Pokale</a>
+  <a href="#"><i class="fa fa-trophy"></i>Trophies</a>
   EOH;
   
   active_or_hover ($title, "karte");
   
   print <<<EOH
 
-  <a href="Map.php"><i class="fa fa-calendar"></i>Kalender</a>
+  <a href="Map.php"><i class="fa fa-calendar"></i>Calendar</a>
   EOH;
   
   active_or_hover ($title, "about");
   
   print <<<EOH
-  <a href="About.php"><i class="fa fa-info"></i>About</a>
+  <a href="#"><i class="fa fa-users"></i>Teams</a>
   EOH;
   
         if(!isset($_SESSION['userid'])) {
@@ -162,5 +162,40 @@ function my_isset_post ( $text ) {
     return $string;
   }
   
+// Statischer HTML Fuss, nach dem Seiteninhalt
+function my_html_foot () {
+  print<<<EndOfHtml
+  <hr>
+  <br>
+<div id="footer">
+  <div id="left">Impressum<br>
+  <br>
+  <ul>
+    <li><a href="About.php" style="color: black; text-decoration: none" title="About"><i class="fa fa-info"></i> About</a><li>
+    <br>
+  </ul>
+  </div>
+  <div id="center">Quicklinks<br>
+  <br>
+  <ul>
+    <li><a href="https://www.formula1.com/en/latest/article.revealed-discover-your-favourite-drivers-official-rating-in-the-new-f1-2021.H1aUDacRLzPiwvNRrIw2z.html" style="color: black; text-decoration: none" title="Lieblingsrezpte" target="_blank"><i class="fa fa-copyright"></i> F1 2021 Gameplay Rating</a><li>
+    <li><a href="https://www.formula1.com/en.html" style="color: black; text-decoration: none" title="Lieblingsrezpte" target="_blank"><i class="fa fa-copyright"></i> Official Formula 1 website</a><li>
+    <br>
+  </ul>
+  </div>
+  <div id="right">Newsletter<br>
+  <br>
+  <ul>
+    <li><a href="https://www.formula1.com/en/register-for-free-now.html#de" style="color: black; text-decoration: none" title="Zum Newsletter anmelden" target="_blank"><i class="fa fa-registered"></i> Register here!</a><li><br>
+    <br>
+  </ul>
+  </div>
+  
+  </div>
+  </body>
+</html>
+EndOfHtml;
+}
+
 
 ?>

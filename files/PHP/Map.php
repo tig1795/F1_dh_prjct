@@ -77,7 +77,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	}).addTo(meineKarte);
 	
 	var meinMarker = L.marker([26.031715708904542, 50.511756136668915]).bindPopup(
-		"<b>Bahrain International Circuit </b> <p> Im Rennkalender: 2004–2010, seit 2012 <br> Streckenlänge: 5,412 km <br> Rennlänge: 308,238 km in 57 Runden <br> Rundenrekord: 1:30,252 (2004, Michael Schumacher, Ferrari) <br> Rundenrekord Qualifikation: 1:27,264 (2020, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Lewis Hamilton (5) <br> Die meisten Poles: Lewis Hamilton/Sebastian Vettel (je 3)"
+		"<b>Bahrain International Circuit </b> <p> Im Rennkalender: 2004–2010, seit 2012 <br> Streckenlänge: 5,412 km <br> Rennlänge: 308,238 km in 57 Runden <br> Rundenrekord: 1:30,252 (2004, <a href='MSC.php' style='color: black'>Michael Schumacher</a>, Ferrari) <br> Rundenrekord Qualifikation: 1:27,264 (2020, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Lewis Hamilton (5) <br> Die meisten Poles: Lewis Hamilton/Sebastian Vettel (je 3)"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([44.34442630533515, 11.715594829324445]).bindPopup(
@@ -89,7 +89,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([41.56873183070386, 2.258286903890934]).bindPopup(
-		"<b>Spanish Grand Prix </b> <p> Im Rennkalender: seit 1991 <br> Streckenlänge: 4,655 km <br> Rennlänge: 307,104 km in 66 Runden <br> Rundenrekord: 1:18,183 (2020, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:15,406 (2019, Valtteri Bottas, Mercedes) <br> Die meisten Siege: Michael Schumacher (6) <br> Die meisten Poles: Michael Schumacher (7)"
+		"<b>Spanish Grand Prix </b> <p> Im Rennkalender: seit 1991 <br> Streckenlänge: 4,655 km <br> Rennlänge: 307,104 km in 66 Runden <br> Rundenrekord: 1:18,183 (2020, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:15,406 (2019, Valtteri Bottas, Mercedes) <br> Die meisten Siege: <a href='MSC.php' style='color: black'>Michael Schumacher (6)</a> <br> Die meisten Poles: <a href='MSC.php' style='color: black'>Michael Schumacher (7)</a>"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([43.73523270211274, 7.4218324830504105]).bindPopup(
@@ -101,7 +101,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([43.24942826481836, 5.791803982459217]).bindPopup(
-		"<b>French Grand Prix </b> <p> Im Rennkalender: 1950–1954, 1956–2008, seit 2018 <br> Streckenlänge: 5,842 km <br> Rennlänge: 309,626 km in 53 Runden <br> Rundenrekord: 1:32,740 (2019, Sebastian Vettel, Ferrari) <br> Rundenrekord Qualifikation: 1:28,319 (2019, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Michael Schumacher (8) <br> Die meisten Poles: Michael Schumacher (4)"
+		"<b>French Grand Prix </b> <p> Im Rennkalender: 1950–1954, 1956–2008, seit 2018 <br> Streckenlänge: 5,842 km <br> Rennlänge: 309,626 km in 53 Runden <br> Rundenrekord: 1:32,740 (2019, Sebastian Vettel, Ferrari) <br> Rundenrekord Qualifikation: 1:28,319 (2019, Lewis Hamilton, Mercedes) <br> Die meisten Siege: <a href='MSC.php' style='color: black'>Michael Schumacher (8)</a> <br> Die meisten Poles: <a href='MSC.php' style='color: black'>Michael Schumacher (4)</a>"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([47.22049559238947, 14.767590478675974]).bindPopup(
@@ -113,11 +113,11 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([47.582114127224585, 19.25387878300445]).bindPopup(
-		"<b>Hungarian Grand Prix </b> <p> Im Rennkalender: seit 1986 <br> Streckenlänge: 4,381 km <br> Rennlänge: 306,663 km in 70 Runden <br> Rundenrekord: 1:16,627 (2020, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:13,447 (2020, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Lewis Hamilton (8) <br> Die meisten Poles: Lewis Hamilton/Michael Schumacher (7)"
+		"<b>Hungarian Grand Prix </b> <p> Im Rennkalender: seit 1986 <br> Streckenlänge: 4,381 km <br> Rennlänge: 306,663 km in 70 Runden <br> Rundenrekord: 1:16,627 (2020, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:13,447 (2020, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Lewis Hamilton (8) <br> Die meisten Poles: Lewis Hamilton/<a href='MSC.php' style='color: black'>Michael Schumacher</a> (7)"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([50.4370475057689, 5.975473598336679]).bindPopup(
-		"<b>Belgian Grand Prix </b> <p> Im Rennkalender: 1950–1956, 1958, 1960–1968, 1970, 1972–2002, 2004–2005, seit 2007 <br> Streckenlänge: 7,004 km <br> Rennlänge: 308,176 km in 44 Runden <br> Rundenrekord: 1:46,286 (2018, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:41,252 (2020, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Michael Schumacher (6) <br> Die meisten Poles: Lewis Hamilton (6)"
+		"<b>Belgian Grand Prix </b> <p> Im Rennkalender: 1950–1956, 1958, 1960–1968, 1970, 1972–2002, 2004–2005, seit 2007 <br> Streckenlänge: 7,004 km <br> Rennlänge: 308,176 km in 44 Runden <br> Rundenrekord: 1:46,286 (2018, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:41,252 (2020, Lewis Hamilton, Mercedes) <br> Die meisten Siege: <a href='MSC.php' style='color: black'>Michael Schumacher (6)</a> <br> Die meisten Poles: Lewis Hamilton (6)"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([52.38779975128846, 4.544985273877893]).bindPopup(
@@ -125,7 +125,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([45.62231406137463, 9.28607967260212]).bindPopup(
-		"<b>Italian Grand Prix </b> <p> Im Rennkalender: seit 1950 <br> Streckenlänge: 5,793 km <br> Rennlänge: 306,720 km in 53 Runden <br> Rundenrekord: 1:21,046 (2004, Rubens Barrichello, Ferrari) <br> Rundenrekord Qualifikation: 1:18,887 (2020, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Lewis Hamilton/Michael Schumacher (je 5) <br> Die meisten Poles: Lewis Hamilton (7)"
+		"<b>Italian Grand Prix </b> <p> Im Rennkalender: seit 1950 <br> Streckenlänge: 5,793 km <br> Rennlänge: 306,720 km in 53 Runden <br> Rundenrekord: 1:21,046 (2004, Rubens Barrichello, Ferrari) <br> Rundenrekord Qualifikation: 1:18,887 (2020, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Lewis Hamilton/<a href='MSC.php' style='color: black'>Michael Schumacher</a> (je 5) <br> Die meisten Poles: Lewis Hamilton (7)"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([43.41012537125325, 39.96973450046644]).bindPopup(
@@ -137,11 +137,11 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([34.845672726263665, 136.53947790993766]).bindPopup(
-		"<b>Japanese Grand Prix </b> <p> Im Rennkalender: 1976–1977, seit 1987 <br> Streckenlänge: 5,807 km <br> Rennlänge: 307,573 km in 53 Runden <br> Rundenrekord: 1:30,983 (2019, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:27,064 (2019, Sebastian Vettel, Ferrari) <br> Die meisten Siege: Michael Schumacher (6) <br> Die meisten Poles: Michael Schumacher (8)"
+		"<b>Japanese Grand Prix </b> <p> Im Rennkalender: 1976–1977, seit 1987 <br> Streckenlänge: 5,807 km <br> Rennlänge: 307,573 km in 53 Runden <br> Rundenrekord: 1:30,983 (2019, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:27,064 (2019, Sebastian Vettel, Ferrari) <br> Die meisten Siege: <a href='MSC.php' style='color: black'>Michael Schumacher (6)</a> <br> Die meisten Poles: <a href='MSC.php' style='color: black'>Michael Schumacher (8)</a>"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([30.13471996403446, -97.63504644046603]).bindPopup(
-		"<b>United States Grand Prix </b> <p> Im Rennkalender: 1959–2019 <br> Streckenlänge: 5,516 km <br> Rennlänge: 308,896 km in 56 Runden <br> Rundenrekord: 1:36,169 (2019, Charles Leclerc, Ferrari) <br> Rundenrekord Qualifikation: 1:32,029 (2019, Valtteri Bottas, Mercedes) <br> Die meisten Siege: Lewis Hamilton (6) <br> Die meisten Poles: Lewis Hamilton/Michael Schumacher (je 4)"
+		"<b>United States Grand Prix </b> <p> Im Rennkalender: 1959–2019 <br> Streckenlänge: 5,516 km <br> Rennlänge: 308,896 km in 56 Runden <br> Rundenrekord: 1:36,169 (2019, Charles Leclerc, Ferrari) <br> Rundenrekord Qualifikation: 1:32,029 (2019, Valtteri Bottas, Mercedes) <br> Die meisten Siege: Lewis Hamilton (6) <br> Die meisten Poles: Lewis Hamilton/<a href='MSC.php' style='color: black'>Michael Schumacher</a> (je 4)"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([19.405985264147436, -99.09198516161604]).bindPopup(
@@ -163,6 +163,10 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	
 	</script>
 	</div>
-  </body>
 
+<?php
+my_html_foot()
+?>
+
+  </body>
 </html>

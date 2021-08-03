@@ -262,6 +262,10 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 </div>
 </div>
 
+<?php
+my_html_foot()
+?>
+
 </body>
 </html>
 

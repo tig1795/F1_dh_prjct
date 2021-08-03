@@ -6,38 +6,24 @@
     <meta charset="utf-8">
     <title>About</title>
     <link rel="stylesheet" href="../CSS/menubar.css">
+    <link rel="stylesheet" href="../CSS/login.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
   </head>
   <body>
-
-<?php
-session_start(); // session_start() ermöglicht Zugriff auf den Session Cookie, der die userid beinhaltet.
-                // Ohne Session_start () könnte man sich nicht einloggen, sobald man die Login-Seite verlässt, wäre man ausgeloggt.
-                // Da nirgendwo der Loginstatus hinterlegt wäre.
-
-// Startseite hier können allgemeine Funktionen oder aktuelles angezeigt werden
-$server = $_SERVER["SERVER_NAME"]; //Hinterlegte Pfade
-$script = $_SERVER["SCRIPT_NAME"]; //Hinterlgete Pfade //wird vermutlich nicht benutzt. 
-require ( "funktionen.php" );
-
-// Menükategorien: index rezepte magazin community videos dinner meinkochbuch
-$title ="about";
-my_html_head ( $title );  
-
-$name_der_db  = "f1";
-$benutzer     = "root";
-$passwort     = "";
-$tabellenname = "users";
-
-$link = our_sql_connect ( $server, $benutzer, $passwort, $name_der_db );
-  
-$username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid überprüft.
-?>
-
+    <header>
+        <div class="row">
+            <div class="logo-row">
+                <a href="Home.php">
+                    <img src="../../images/F1_Logo.png" alt="logo" class="logo">
+                </a>
+            </div>
+        </div>
+    </header>
 <br>
+
 <!-- Inhalt der Seite -->
     <div class="info">
-<h2>Impressum</h2>
+<h2>About this Website</h2>
 </br>
 <p>Diese Website wurde von Timo Günther für das Projekt in den Digital Humanities an der Julius-Maximilians Universität Würzburg erstellt.</p>
     </br>
@@ -48,6 +34,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 <li>https://www.formula1.com/</li>
 <li>https://de.wikipedia.org/wiki/Liste_der_Formel-1-Weltmeister</li>
 <li>https://de.wikipedia.org/wiki/Formel-1-Statistik</li>
+<br>
 
 </body>
 </html>
