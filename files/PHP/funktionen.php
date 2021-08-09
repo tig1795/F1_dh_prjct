@@ -71,9 +71,9 @@ function my_html_head ( $title) {
     <div class="sub-menu-1">
         <ul>
             <li><a href="MSC.php">Michael Schumacher</a></li>
-            <li class="hover-me"><a href="#">Marketing</a>
+            <li class="hover-me"><a href="LH.php">Lewis Hamilton</a>
             </li>
-            <li class="hover-me"><a href="#">Mobile App</a>    
+            <li class="hover-me"><a href="Senna.php">Ayrton Senna</a>    
           </li>
         </ul>
     </div>
