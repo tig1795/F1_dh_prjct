@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Michael Schumacher</title>
+	<title>Niki Lauda</title>
 	<link rel="stylesheet" href="../CSS/steckbrief.css">
 	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
@@ -37,13 +37,13 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 <div class="resume">
    <div class="resume_left">
      <div class="resume_profile">
-        <a href="#"><img src="../../images/MSC.jpg"/></a>
+        <a href="#"><img src="../../images/Lauda.jpg"/></a>
      </div>
      <div class="resume_content">
        <div class="resume_item resume_info">
          <div class="title">
-           <p class="bold">Michael Schumacher</p>
-           <p class="regular">Formel1-Rekordweltmeister</p>
+           <p class="bold">Niki Lauda</p>
+           <p class="regular">3-facher Weltmeister</p>
          </div>
          <ul>
            <li>
@@ -51,7 +51,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-trophy"></i>
              </div>
              <div class="data">
-               7 Fahrerweltmeistertitel
+               3 Fahrerweltmeistertitel
              </div>
              </li>
            <li>
@@ -59,7 +59,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-flag-checkered"></i>
              </div>
              <div class="data">
-               91 Grand Prix Siege
+               25 Grand Prix Siege
              </div>
            </li>
            <li>
@@ -67,7 +67,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-stopwatch"></i>
              </div>
              <div class="data">
-               68 Pole Positions
+               24 Pole Positions
              </div>
            </li>
            <li>
@@ -75,62 +75,8 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-history"></i>
              </div>
              <div class="data"> 
-               77 schnellste Rennrunden
+               24 schnellste Rennrunden
              </div>
-           </li>
-         </ul>
-       </div>
-       <div class="resume_item resume_skills">
-         <div class="title">
-           <p class="bold">F1 2021 Gameplay Rating</p>
-         </div>
-         <ul>
-           <li>
-             <div class="skill_name">
-               EXP
-             </div>
-             <div class="skill_progress">
-               <span style="width: 98%;"></span>
-             </div>
-             <div class="skill_per">98</div>
-           </li>
-           <li>
-             <div class="skill_name">
-               AWA
-             </div>
-             <div class="skill_progress">
-               <span style="width: 92%;"></span>
-             </div>
-             <div class="skill_per">92</div>
-           </li>
-           <li>
-             <div class="skill_name">
-               RAC
-             </div>
-             <div class="skill_progress">
-               <span style="width: 93%;"></span>
-             </div>
-             <div class="skill_per">93</div>
-           </li>
-           <li>
-             <div class="skill_name">
-               PAC
-             </div>
-             <div class="skill_progress">
-               <span style="width: 96%;"></span>
-             </div>
-             <div class="skill_per">96</div>
-           </li>
-           <hr style="color: white">
-           <br>
-           <li>
-             <div class="skill_name">
-               <b>Tot. Rating</b>
-             </div>
-             <div class="skill_progress">
-               <span style="width: 94%;"></span>
-             </div>
-             <div class="skill_per"><b>94</b></div>
            </li>
          </ul>
        </div>
@@ -141,47 +87,11 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
          <ul>
            <li>
              <div class="icon">
-               <i class="fab fa-facebook-square"></i>
-             </div>
-             <div class="data">
-               <p class="semi-bold">Facebook</p>
-               <a style="color: white; text-decoration: none" href="https://www.facebook.com/michaelschumacherofficial" target="_blank"><p>Michael Schumacher</p></a>
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fab fa-twitter-square"></i>
-             </div>
-             <div class="data">
-               <p class="semi-bold">Twitter</p>
-               <a style="color: white; text-decoration: none" href="https://twitter.com/schumacher" target="_blank"><p>@schumacher</p></a>
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fab fa-youtube"></i>
-             </div>
-             <div class="data">
-               <p class="semi-bold">Youtube</p>
-               <a style="color: white; text-decoration: none" href="https://www.youtube.com/michaelschumacherofficial" target="_blank"><p>Michael Schumacher</p></a>
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-                <i class="fab fa-instagram"></i>
-             </div>
-             <div class="data">
-               <p class="semi-bold">Instagram</p>
-               <a style="color: white; text-decoration: none" href="https://www.instagram.com/michaelschumacher/" target="_blank"><p>@michaelschumacher</p></a>
-             </div>
-           </li>
-           <li>
-             <div class="icon">
                 <i class="fas fa-globe"></i>
              </div>
              <div class="data">
                <p class="semi-bold">Offizielle Website</p>
-               <a style="color: white; text-decoration: none" href="https://michael-schumacher.de/?fbclid=IwAR1SAW_8WiXp7rhCoVT6Ovj8CNLKOQKEogD6fXmIx9NVQztkcbNWLbvNveE" target="_blank"><p>MSC</p></a>
+               <a style="color: white; text-decoration: none" href="https://nikilauda.obys.agency/prologue/" target="_blank"><p>Niki Lauda</p></a>
              </div>
            </li>
          </ul>
@@ -193,9 +103,8 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
         <div class="title">
            <p class="bold">Einführung</p>
          </div>
-        <p>Michael Schumacher (* 3. Januar 1969 in Hürth, Nordrhein-Westfalen) ist ein ehemaliger deutscher Automobilrennfahrer. 
-           Schumacher startete von 1991 bis 2006 sowie von 2010 bis 2012 bei insgesamt 307 Großen Preisen der Formel-1-Weltmeisterschaft. 
-           Er hält die Rekorde von 7 Weltmeistertiteln, zusammen mit Lewis Hamilton (seit 2020) und den Rekord für die 77 schnellsten Rennrunden.</p>
+        <p>Andreas Nikolaus „Niki“ Lauda (* 22. Februar 1949 in Wien; † 20. Mai 2019 in Zürich) war ein österreichischer Automobilrennfahrer, Unternehmer und Pilot.
+           Er startete zwischen 1971 und 1985 in der Formel 1 und wurde dreimal Weltmeister.</p>
     </div>
     <div class="resume_item resume_work">
         <div class="title">
@@ -203,17 +112,16 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
          </div>
         <ul>
             <li>
-                <div class="date">1991</div> 
+                <div class="date">1971-1972</div> 
                 <div class="info">
-                     <p class="semi-bold">Jordan Grand Prix</p> 
-                  <p>Formel 1 Debut am 25.08.1991 in Spa-Francochamps (Belgien)</p>
+                     <p class="semi-bold">March</p> 
+                  <p>Formel 1 Debut am 15. August 1971 auf dem Österreichring (Österreich)</p>
                 </div>
             </li>
             <li>
-              <div class="date">1991–1995</div>
+              <div class="date">1973</div>
               <div class="info">
-                     <p class="semi-bold">Benetton Ford/Renault</p> 
-                  <p>Formel1 Weltmeister 1994 und 1995</p>
+                     <p class="semi-bold">British Racing Motors (B.R.M.)</p>
                 </div>
             </li>
             <li>

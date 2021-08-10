@@ -71,10 +71,10 @@ function my_html_head ( $title) {
     <div class="sub-menu-1">
         <ul>
             <li><a href="MSC.php">Michael Schumacher</a></li>
-            <li class="hover-me"><a href="LH.php">Lewis Hamilton</a>
-            </li>
-            <li class="hover-me"><a href="Senna.php">Ayrton Senna</a>    
-          </li>
+            <li class="hover-me"><a href="LH.php">Lewis Hamilton</a></li>
+            <li class="hover-me"><a href="Senna.php">Ayrton Senna</a></li>
+            <li class="hover-me"><a href="Seb.php">Sebastian Vettel</a></li>
+            <li class="hover-me"><a href="Lauda.php">Niki Lauda</a></li>
         </ul>
     </div>
   EOH;

@@ -175,6 +175,15 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <a style="color: white; text-decoration: none" href="https://www.instagram.com/oficialayrtonsenna/?hl=de" target="_blank"><p>@oficialayrtonsenna</p></a>
              </div>
            </li>
+           <li>
+             <div class="icon">
+                <i class="fas fa-globe"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Offizielle Website</p>
+               <a style="color: white; text-decoration: none" href="https://www.ayrtonsenna.com.br/" target="_blank"><p>Ayrton Senna</p></a>
+             </div>
+           </li>
          </ul>
        </div>
      </div>

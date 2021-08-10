@@ -85,7 +85,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
   
   var meinMarker = L.marker([37.23213846586531, -8.627348584866924]).bindPopup(
-		"<b>Portuguese Grand Prix </b> <p> Im Rennkalender: 1958–1960, 1984–1996, 2020, 2021 <br> Streckenlänge: 4,635 km <br> Rennlänge: 306,826 km in 66 Runden <br> Rundenrekord: 1:18,750 (2020, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:16,466 (2020, Valtteri Bottas, Mercedes) <br> Die meisten Siege: Nigel Mansell/Alain Prost (je 3) <br> Die meisten Poles: Ayrton Senna (3)"
+		"<b>Portuguese Grand Prix </b> <p> Im Rennkalender: 1958–1960, 1984–1996, 2020, 2021 <br> Streckenlänge: 4,635 km <br> Rennlänge: 306,826 km in 66 Runden <br> Rundenrekord: 1:18,750 (2020, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:16,466 (2020, Valtteri Bottas, Mercedes) <br> Die meisten Siege: Nigel Mansell/Alain Prost (je 3) <br> Die meisten Poles: <a href='Senna.php' style='color: black'>Ayrton Senna (3)</a>"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([41.56873183070386, 2.258286903890934]).bindPopup(
@@ -93,7 +93,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([43.73523270211274, 7.4218324830504105]).bindPopup(
-		"<b>Monaco Grand Prix </b> <p> Im Rennkalender: 1950, seit 1955 <br> Streckenlänge: 3,337 km <br> Rennlänge: 260,286 km in 78 Runden <br> Rundenrekord: 1:12,909 (2021, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:10,166 (2019, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Ayrton Senna (6) <br> Die meisten Poles: Ayrton Senna (5)"
+		"<b>Monaco Grand Prix </b> <p> Im Rennkalender: 1950, seit 1955 <br> Streckenlänge: 3,337 km <br> Rennlänge: 260,286 km in 78 Runden <br> Rundenrekord: 1:12,909 (2021, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:10,166 (2019, Lewis Hamilton, Mercedes) <br> Die meisten Siege: <a href='Senna.php' style='color: black'>Ayrton Senna (6)</a> <br> Die meisten Poles: <a href='Senna.php' style='color: black'>Ayrton Senna (5)</a>"
 	).addTo(meineKarte);
   
   var meinMarker = L.marker([40.373733096526635, 49.85817609006498]).bindPopup(
@@ -105,7 +105,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([47.22049559238947, 14.767590478675974]).bindPopup(
-		"<b>Austrian Grand Prix/Styrian Grand Prix </b> <p> Im Rennkalender: 1964, 1970–1987, 1997–2003, seit 2014 <br> Streckenlänge: 4,318 km <br> Rennlänge: 306,452 km in 71 Runden <br> Rundenrekord: 1:06:200 (2021, Max Verstappen, Red Bull Racing) <br> Rundenrekord Qualifikation: 1:02,939 (2020, Valtteri Bottas, Mercedes) <br> Die meisten Siege: Alain Prost, Max Verstappen (3) <br> Die meisten Poles: René Arnoux/Valtteri Bottas/Niki Lauda (je 3)"
+		"<b>Austrian Grand Prix/Styrian Grand Prix </b> <p> Im Rennkalender: 1964, 1970–1987, 1997–2003, seit 2014 <br> Streckenlänge: 4,318 km <br> Rennlänge: 306,452 km in 71 Runden <br> Rundenrekord: 1:06:200 (2021, Max Verstappen, Red Bull Racing) <br> Rundenrekord Qualifikation: 1:02,939 (2020, Valtteri Bottas, Mercedes) <br> Die meisten Siege: Alain Prost/Max Verstappen je (3) <br> Die meisten Poles: René Arnoux/Valtteri Bottas/Niki Lauda (je 3)"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([52.07366280063156, -1.0131000327244324]).bindPopup(
@@ -149,7 +149,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([-23.70107692161238, -46.69711755395441]).bindPopup(
-		"<b>Brazilian Grand Prix </b> <p> Im Rennkalender: 1973–2019 <br> Streckenlänge: 4,309 km <br> Rennlänge: 305,909 km in 71 Runden <br> Rundenrekord: 1:10,540 (2018, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:07,281 (2018, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Alain Prost (6) <br> Die meisten Poles: Ayrton Senna (6)"
+		"<b>Brazilian Grand Prix </b> <p> Im Rennkalender: 1973–2019 <br> Streckenlänge: 4,309 km <br> Rennlänge: 305,909 km in 71 Runden <br> Rundenrekord: 1:10,540 (2018, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:07,281 (2018, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Alain Prost (6) <br> Die meisten Poles: <a href='MSC.php' style='color: black'>Ayrton Senna (6)</a>"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([22.29758599323335, 40.4121185743208]).bindPopup(

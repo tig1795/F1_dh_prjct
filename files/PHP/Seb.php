@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Lewis Hamilton</title>
+	<title>Sebastian Vettel</title>
 	<link rel="stylesheet" href="../CSS/steckbrief.css">
 	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
@@ -37,13 +37,13 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 <div class="resume">
    <div class="resume_left">
      <div class="resume_profile">
-        <a href="#"><img src="../../images/LH.jpg"/></a>
+        <a href="#"><img src="../../images/Seb.jpg"/></a>
      </div>
      <div class="resume_content">
        <div class="resume_item resume_info">
          <div class="title">
-           <p class="bold">Lewis Hamilton</p>
-           <p class="regular">Formel1-Rekordweltmeister</p>
+           <p class="bold">Sebastian Vettel</p>
+           <p class="regular">4-facher Formel1-Weltmeister</p>
          </div>
          <ul>
            <li>
@@ -51,7 +51,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-trophy"></i>
              </div>
              <div class="data">
-               7 Fahrerweltmeistertitel
+               4 Fahrerweltmeistertitel
              </div>
              </li>
            <li>
@@ -59,7 +59,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-flag-checkered"></i>
              </div>
              <div class="data">
-               99 Grand Prix Siege
+               53 Grand Prix Siege
              </div>
            </li>
            <li>
@@ -67,7 +67,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-stopwatch"></i>
              </div>
              <div class="data">
-                101 Pole Positions
+               57 Pole Positions
              </div>
            </li>
            <li>
@@ -75,7 +75,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-history"></i>
              </div>
              <div class="data"> 
-                53 schnellste Rennrunden
+               38 schnellste Rennrunden
              </div>
            </li>
          </ul>
@@ -90,36 +90,36 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                EXP
              </div>
              <div class="skill_progress">
-               <span style="width: 92%;"></span>
+               <span style="width: 91%;"></span>
              </div>
-             <div class="skill_per">92</div>
+             <div class="skill_per">91</div>
            </li>
            <li>
              <div class="skill_name">
                AWA
              </div>
              <div class="skill_progress">
-               <span style="width: 89%;"></span>
+               <span style="width: 87%;"></span>
              </div>
-             <div class="skill_per">89</div>
+             <div class="skill_per">87</div>
            </li>
            <li>
              <div class="skill_name">
                RAC
              </div>
              <div class="skill_progress">
-               <span style="width: 94%;"></span>
+               <span style="width: 93%;"></span>
              </div>
-             <div class="skill_per">94</div>
+             <div class="skill_per">93</div>
            </li>
            <li>
              <div class="skill_name">
                PAC
              </div>
              <div class="skill_progress">
-               <span style="width: 98%;"></span>
+               <span style="width: 88%;"></span>
              </div>
-             <div class="skill_per">98</div>
+             <div class="skill_per">88</div>
            </li>
            <hr style="color: white">
            <br>
@@ -128,9 +128,9 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <b>Tot. Rating</b>
              </div>
              <div class="skill_progress">
-               <span style="width: 95%;"></span>
+               <span style="width: 89%;"></span>
              </div>
-             <div class="skill_per"><b>95</b></div>
+             <div class="skill_per"><b>89</b></div>
            </li>
          </ul>
        </div>
@@ -145,7 +145,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
              </div>
              <div class="data">
                <p class="semi-bold">Facebook</p>
-               <a style="color: white; text-decoration: none" href="https://www.facebook.com/LewisHamilton" target="_blank"><p>Lewis Hamilton</p></a>
+               <a style="color: white; text-decoration: none" href="https://www.facebook.com/Sebastian-Vettel-offical-859347904099128/" target="_blank"><p>Sebastian Vettel</p></a>
              </div>
            </li>
            <li>
@@ -154,25 +154,16 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
              </div>
              <div class="data">
                <p class="semi-bold">Twitter</p>
-               <a style="color: white; text-decoration: none" href="https://twitter.com/LewisHamilton?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><p>@LewisHamilton</p></a>
+               <a style="color: white; text-decoration: none" href="https://twitter.com/sebvettelnews?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><p>@sebvettelnews</p></a>
              </div>
            </li>
-           <li>
-             <div class="icon">
-               <i class="fab fa-youtube"></i>
-             </div>
-             <div class="data">
-               <p class="semi-bold">Youtube</p>
-               <a style="color: white; text-decoration: none" href="https://www.youtube.com/user/lewishamilton" target="_blank"><p>Lewis Hamilton</p></a>
-             </div>
-           </li>
-           <li>
+            <li>
              <div class="icon">
                 <i class="fab fa-instagram"></i>
              </div>
              <div class="data">
                <p class="semi-bold">Instagram</p>
-               <a style="color: white; text-decoration: none" href="https://www.instagram.com/lewishamilton/" target="_blank"><p>@lewishamilton</p></a>
+               <a style="color: white; text-decoration: none" href="https://www.instagram.com/vettelofficial/?hl=de" target="_blank"><p>@vettelofficial</p></a>
              </div>
            </li>
            <li>
@@ -181,7 +172,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
              </div>
              <div class="data">
                <p class="semi-bold">Offizielle Website</p>
-               <a style="color: white; text-decoration: none" href="https://www.lewishamilton.com/?fbclid=IwAR1GClHyV2XP96CD2ptiu4PKzC9iSn70mRsL2C8fFwmy7u5Z5ghBVqXmPiU" target="_blank"><p>LH44</p></a>
+               <a style="color: white; text-decoration: none" href="https://sebastianvettel.de/" target="_blank"><p>SV5</p></a>
              </div>
            </li>
          </ul>
@@ -193,10 +184,10 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
         <div class="title">
            <p class="bold">Einführung</p>
          </div>
-        <p>Sir Lewis Carl Davidson Hamilton, MBE (* 7. Januar 1985 in Stevenage, Hertfordshire, England) ist ein britischer Automobilrennfahrer. 
-          Seit 2007 startet er in der Formel 1. Schon im ersten Jahr wurde er auf Anhieb Vizeweltmeister und 2008 der zu diesem Zeitpunkt jüngste Weltmeister der Formel-1-Geschichte.
-          Seit 2013 tritt Hamilton in der Formel 1 für Mercedes an. Er ist mit sieben Titeln neben Michael Schumacher Rekordweltmeister. 
-          Darüber hinaus hält Hamilton unter anderem die Rekorde für die meisten Siege, Podien, Pole-Positions sowie gesammelte Weltmeisterschaftspunkte und Führungskilometer. </p>
+        <p>Sebastian Vettel (* 3. Juli 1987 in Heppenheim) ist ein deutscher Automobilrennfahrer.
+          Er startet seit 2007 in der Formel 1 und gewann dort in der Saison 2010 als zweiter Deutscher nach Michael Schumacher und bislang jüngster Fahrer die Weltmeisterschaft.
+          Mit der erfolgreichen Verteidigung des Titels 2011, 2012 und 2013 ist er einer von vier Fahrern, die viermal in Folge Weltmeister wurden. 
+        </p>
     </div>
     <div class="resume_item resume_work">
         <div class="title">
@@ -206,22 +197,36 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
             <li>
                 <div class="date">2007</div> 
                 <div class="info">
-                     <p class="semi-bold">McLaren-Mercedes</p> 
-                  <p>Formel 1 Debut am 18. März 2007 auf dem  Albert Park Circuit (Australien)</p> 
+                     <p class="semi-bold">BMW Sauber</p> 
+                  <p>Formel 1 Debut am 17. Juni 2007 auf dem Indianapolis Motor Speedway (USA)</p>
                 </div>
             </li>
             <li>
-              <div class="date">2007-2012</div>
+              <div class="date">2007-2008</div>
               <div class="info">
-                     <p class="semi-bold">McLaren-Mercedes</p> 
-                  <p>Formel1 Weltmeister 2008</p>
+                     <p class="semi-bold">Scuderia Toro Rosso</p> 
+                  <p>1. Sieg in der Formel 1 am 14. September 2008 auf dem Autodromo Nazionale Monza (Italien)</p>
                 </div>
             </li>
             <li>
-              <div class="date">Seit 2013</div>
+              <div class="date">2009–2014</div>
               <div class="info">
-                     <p class="semi-bold">Mercedes AMG Petronas</p> 
-                  <p>Formel 1 Weltmeister 2014, 2015, 2017-2020</p>
+                     <p class="semi-bold">Red Bull Racing</p> 
+                  <p>Formel 1 Weltmeister von 2010 bis 2013</p>  
+                </div>
+            </li>
+            <li>
+              <div class="date">2015–2020</div>
+              <div class="info">
+                     <p class="semi-bold">Scuderia Ferrari</p> 
+                  <p>Erster Sieg im zweiten Rennen für Ferrari am 29. März 2015 auf dem Sepang International Circuit (Malaysia)
+                     Es sollten noch 13 weitere für Ferrari folgen.</p>  
+                </div>
+            </li>
+            <li>
+              <div class="date">Seit 2021</div>
+              <div class="info">
+                     <p class="semi-bold">Aston Martin</p> 
                 </div>
             </li>
         </ul>
@@ -232,32 +237,27 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
          </div>
       <ul>
             <li>
-                <div class="date">2007</div> 
+                <div class="date">2008</div> 
                 <div class="info">
                      <p class="semi-bold">Erster Formel 1 Sieg</p> 
-                  <p> Am 10.06.2007 auf dem Circuit Gilles-Villeneuve in Kanada</p>
+                  <p> Am 14. September 2008 auf dem Autodromo Nazionale Monza in Italien.</p>
                 </div>
             </li>
             <li>
-              <div class="date">2008</div>
+              <div class="date">2010</div>
               <div class="info">
                      <p class="semi-bold">Gewinn des ersten Formel 1 Weltmeistertitels</p> 
-                  <p>Am 2.11.2008 auf dem Autódromo José Carlos Pace in Brasilien</p>
+                  <p>Am 14. November 2010 auf dem Yas Marina Circuit in Abu Dhabi.
+                     Damit krönte sich Sebastian Vettel zum jüngsten Formel1-Weltmeister aller zeiten.</p>
                 </div>
             </li>
             <li>
-              <div class="date">2014</div>
+              <div class="date">2013</div>
               <div class="info">
-                     <p class="semi-bold">Gewinn des ersten Formel 1 Weltmeistertitels mit Mercedes AMG Petronas</p> 
-                  <p>Am 23.11.2014 auf dem Yas Marina Circuit in Abu Dhabi</p>
+                     <p class="semi-bold">Gewinn des vierten Formel 1 Weltmeistertitels</p> 
+                  <p>Am 27. Oktober 2013 auf dem Buddh International Circuit in Indien.
+                    Mit seinem vierten Weltmeistertitel zog er mit Alain Prost gleich.</p>
                 </div>
-            </li>
-            <li>
-              <div class="date">2020</div>
-              <div class="info">
-                     <p class="semi-bold">Gewinn des siebten Formel 1 Weltmeistertitels</p> 
-                  <p>Am 15.11.2020 auf dem Istanbul Park Circuit in der Türkei und zog damit mit Michael Schumacher gleich.</p>
-              </div>
             </li>
         </ul>
     </div>

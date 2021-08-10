@@ -8,7 +8,7 @@
     <header>
         <div class="row">
             <div class="logo-row">
-              <a href="../PHP/index.php">
+              <a href="../PHP/Home.php">
                <img src="../../images/F1_Logo.png" alt="logo" class="logo">
               </a>
             </div>
