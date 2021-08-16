@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Niki Lauda</title>
+	<title>Jim Clark</title>
 	<link rel="stylesheet" href="../CSS/steckbrief.css">
 	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
@@ -37,12 +37,12 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 <div class="resume">
    <div class="resume_left">
      <div class="resume_profile">
-        <a href="#"><img src="../../images/Lauda.jpg"/></a>
+        <a href="#"><img src="../../images/Jim_Clark.jpg"/></a>
      </div>
      <div class="resume_content">
        <div class="resume_item resume_info">
          <div class="title">
-           <p class="bold">Niki Lauda</p>
+           <p class="bold">Jim Clark</p>
            <p class="regular">3-facher Weltmeister</p>
          </div>
          <ul>
@@ -51,7 +51,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-trophy"></i>
              </div>
              <div class="data">
-               3 Fahrerweltmeistertitel
+               2 Fahrerweltmeistertitel
              </div>
              </li>
            <li>
@@ -67,7 +67,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-stopwatch"></i>
              </div>
              <div class="data">
-               24 Pole Positions
+               33 Pole Positions
              </div>
            </li>
            <li>
@@ -75,7 +75,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-history"></i>
              </div>
              <div class="data"> 
-               24 schnellste Rennrunden
+               28 schnellste Rennrunden
              </div>
            </li>
          </ul>
@@ -91,7 +91,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
              </div>
              <div class="data">
                <p class="semi-bold">Offizielle Website</p>
-               <a style="color: white; text-decoration: none" href="https://nikilauda.obys.agency/prologue/" target="_blank"><p>Niki Lauda</p></a>
+               <a style="color: white; text-decoration: none" href="https://jimclarktrust.com/" target="_blank"><p>Jim Clark</p></a>
              </div>
            </li>
          </ul>
@@ -103,8 +103,8 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
         <div class="title">
            <p class="bold">Einführung</p>
          </div>
-        <p>Andreas Nikolaus „Niki“ Lauda (* 22. Februar 1949 in Wien; † 20. Mai 2019 in Zürich) war ein österreichischer Automobilrennfahrer, Unternehmer und Pilot.
-           Er startete zwischen 1971 und 1985 in der Formel 1 und wurde dreimal Weltmeister.</p>
+        <p>James „Jim“ Clark junior, OBE (* 4. März 1936 in Kilmany, Fife, Schottland; † 7. April 1968 in Hockenheim) war ein britischer Automobilrennfahrer. 
+          Er startete zwischen 1960 und 1968 bei 72 Grand-Prix-Rennen für Lotus in der Formel 1 und wurde zweimal Weltmeister (1963 und 1965). </p>
     </div>
     <div class="resume_item resume_work">
         <div class="title">
@@ -112,36 +112,10 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
          </div>
         <ul>
             <li>
-                <div class="date">1971-1972</div> 
+                <div class="date">1960–1968</div> 
                 <div class="info">
-                     <p class="semi-bold">March</p> 
-                  <p>Formel 1 Debut am 15. August 1971 auf dem Österreichring (Österreich)</p>
-                </div>
-            </li>
-            <li>
-              <div class="date">1973</div>
-              <div class="info">
-                     <p class="semi-bold">British Racing Motors (B.R.M.)</p>
-                </div>
-            </li>
-            <li>
-              <div class="date">1974–1977</div>
-              <div class="info">
-                     <p class="semi-bold">Scuderia Ferrari</p> 
-                  <p>Formel 1 Weltmeister 1975 und 1977</p>
-                </div>
-            </li>
-            <li>
-              <div class="date">1978–1979</div>
-              <div class="info">
-                     <p class="semi-bold">Brabham</p>
-                </div>
-            </li>
-            <li>
-              <div class="date">1982–1985</div>
-              <div class="info">
-                     <p class="semi-bold">McLaren</p>
-                  <p>Formel 1 Weltmeister 1984</p>
+                     <p class="semi-bold">Lotus</p> 
+                  <p>Formel 1 Weltmeister 1963 und 1965.</p>
                 </div>
             </li>
         </ul>
@@ -152,24 +126,26 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
          </div>
       <ul>
             <li>
-                <div class="date">1974</div> 
+                <div class="date">1960</div> 
                 <div class="info">
+                     <p class="semi-bold">Formel 1 Debut</p> 
+                  <p> Am 5. Juni 1960 auf dem Circuit Park Zandvoort in der Niederlande.</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">1962</div>
+              <div class="info">
                      <p class="semi-bold">Erster Formel 1 Sieg</p> 
-                  <p> Am 28. April 1974 auf dem Circuito Permanente del Jarama in Spanien</p>
+                  <p>Am 17. Juni 1962 auf dem Circuit de Spa-Francorchamps in Belgien.</p>
                 </div>
             </li>
             <li>
-              <div class="date">1975</div>
+              <div class="date">1968</div>
               <div class="info">
-                     <p class="semi-bold">Gewinn des ersten Formel 1 Weltmeistertitels</p> 
-                  <p>Am 5. Oktober 1975 auf dem Circuit of The Americas in den USA</p>
-                </div>
-            </li>
-            <li>
-              <div class="date">1976</div>
-              <div class="info">
-                     <p class="semi-bold">Schwerer Unfall beim Großen Preis von Deutschland am 1. August 1976.</p> 
-                  <p>Bereits 42 Tage später, nach zwei verpassten Rennen, nahm Niki Lauda wieder am Großen Preis von Italien teil.</p>
+                     <p class="semi-bold">Tödlicher Unfall auf dem Hockenheimring am 7. April 1968.</p> 
+                  <p>Im Regen verunglückte Jim Clark im für ihn unbedeutenden Formel-2-Rennen tödlich, 
+                    vermutlich infolge eines schleichenden Plattfußes und Reifenschadens, 
+                    als er auf der Waldgeraden nach dem Motodrom von der Strecke abkam und mit seinem Lotus 48 gegen einen Baum schleuderte.</p>
                 </div>
             </li>
         </ul>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Niki Lauda</title>
+	<title>Nigel Mansell</title>
 	<link rel="stylesheet" href="../CSS/steckbrief.css">
 	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
@@ -37,13 +37,13 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 <div class="resume">
    <div class="resume_left">
      <div class="resume_profile">
-        <a href="#"><img src="../../images/Lauda.jpg"/></a>
+        <a href="#"><img src="../../images/Mansell.jpg"/></a>
      </div>
      <div class="resume_content">
        <div class="resume_item resume_info">
          <div class="title">
-           <p class="bold">Niki Lauda</p>
-           <p class="regular">3-facher Weltmeister</p>
+           <p class="bold">Nigel Mansell</p>
+           <p class="regular">Formel1-Rekordweltmeister</p>
          </div>
          <ul>
            <li>
@@ -51,7 +51,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-trophy"></i>
              </div>
              <div class="data">
-               3 Fahrerweltmeistertitel
+               1 Fahrerweltmeistertitel
              </div>
              </li>
            <li>
@@ -59,7 +59,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-flag-checkered"></i>
              </div>
              <div class="data">
-               25 Grand Prix Siege
+               31 Grand Prix Siege
              </div>
            </li>
            <li>
@@ -67,7 +67,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-stopwatch"></i>
              </div>
              <div class="data">
-               24 Pole Positions
+               32 Pole Positions
              </div>
            </li>
            <li>
@@ -75,7 +75,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-history"></i>
              </div>
              <div class="data"> 
-               24 schnellste Rennrunden
+               30 schnellste Rennrunden
              </div>
            </li>
          </ul>
@@ -87,11 +87,29 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
          <ul>
            <li>
              <div class="icon">
-                <i class="fas fa-globe"></i>
+               <i class="fab fa-facebook-square"></i>
              </div>
              <div class="data">
-               <p class="semi-bold">Offizielle Website</p>
-               <a style="color: white; text-decoration: none" href="https://nikilauda.obys.agency/prologue/" target="_blank"><p>Niki Lauda</p></a>
+               <p class="semi-bold">Facebook</p>
+               <a style="color: white; text-decoration: none" href="https://www.facebook.com/NigelMansellCBE" target="_blank"><p>Niguel Mansell</p></a>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-twitter-square"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Twitter</p>
+               <a style="color: white; text-decoration: none" href="https://twitter.com/nigelmansell?lang=de" target="_blank"><p>@nigelmansell</p></a>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+                <i class="fab fa-instagram"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Instagram</p>
+               <a style="color: white; text-decoration: none" href="https://www.instagram.com/nigelmansell/?hl=de" target="_blank"><p>@nigelmansell</p></a>
              </div>
            </li>
          </ul>
@@ -103,8 +121,10 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
         <div class="title">
            <p class="bold">Einführung</p>
          </div>
-        <p>Andreas Nikolaus „Niki“ Lauda (* 22. Februar 1949 in Wien; † 20. Mai 2019 in Zürich) war ein österreichischer Automobilrennfahrer, Unternehmer und Pilot.
-           Er startete zwischen 1971 und 1985 in der Formel 1 und wurde dreimal Weltmeister.</p>
+        <p>Nigel Ernest James Mansell, CBE (* 8. August 1953 in Upton-upon-Severn, Malvern Hills) ist ein britischer Automobilrennfahrer. 
+           Er startete zwischen 1980 und 1995 in der höchsten Motorsportklasse Formel 1 und wurde dort 1992 Weltmeister. 
+           Mansell wurde zudem 1993 Meister der IndyCar World Series und ist damit bis heute der einzige Fahrer, der (für gut einen Monat) 
+           gleichzeitig amtierender Meister beider Serien war.</p>
     </div>
     <div class="resume_item resume_work">
         <div class="title">
@@ -112,36 +132,38 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
          </div>
         <ul>
             <li>
-                <div class="date">1971-1972</div> 
+                <div class="date">1980–1984</div> 
                 <div class="info">
-                     <p class="semi-bold">March</p> 
-                  <p>Formel 1 Debut am 15. August 1971 auf dem Österreichring (Österreich)</p>
+                     <p class="semi-bold">Lotus</p> 
+                  <p></p>
                 </div>
             </li>
             <li>
-              <div class="date">1973</div>
+              <div class="date">1985–1988</div>
               <div class="info">
-                     <p class="semi-bold">British Racing Motors (B.R.M.)</p>
+                     <p class="semi-bold">Williams</p> 
+                  <p></p>
                 </div>
             </li>
             <li>
-              <div class="date">1974–1977</div>
+              <div class="date">1989–1990</div>
               <div class="info">
                      <p class="semi-bold">Scuderia Ferrari</p> 
-                  <p>Formel 1 Weltmeister 1975 und 1977</p>
+                  <p></p>
                 </div>
             </li>
             <li>
-              <div class="date">1978–1979</div>
+              <div class="date">1991–1992, 1994</div>
               <div class="info">
-                     <p class="semi-bold">Brabham</p>
+                     <p class="semi-bold"> Williams</p> 
+                  <p></p>
                 </div>
             </li>
             <li>
-              <div class="date">1982–1985</div>
+              <div class="date">1995</div>
               <div class="info">
                      <p class="semi-bold">McLaren</p>
-                  <p>Formel 1 Weltmeister 1984</p>
+                  <p></p>
                 </div>
             </li>
         </ul>
@@ -152,26 +174,26 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
          </div>
       <ul>
             <li>
-                <div class="date">1974</div> 
+                <div class="date">1980</div> 
                 <div class="info">
+                     <p class="semi-bold">Formel 1 Debut</p> 
+                  <p> Am 17. August 1980 auf dem Österreichring.</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">1985</div>
+              <div class="info">
                      <p class="semi-bold">Erster Formel 1 Sieg</p> 
-                  <p> Am 28. April 1974 auf dem Circuito Permanente del Jarama in Spanien</p>
+                  <p>Am 6. Oktober 1985 auf dem Brands Hatch Circuit in England.</p>
                 </div>
             </li>
             <li>
-              <div class="date">1975</div>
+              <div class="date">1992</div>
               <div class="info">
-                     <p class="semi-bold">Gewinn des ersten Formel 1 Weltmeistertitels</p> 
-                  <p>Am 5. Oktober 1975 auf dem Circuit of The Americas in den USA</p>
+                     <p class="semi-bold">Einziger Formel 1 Weltmeistertitel</p> 
+                  <p>Am 16. August 1992 auf dem Hungaroring in Ungarn.</p>
                 </div>
-            </li>
-            <li>
-              <div class="date">1976</div>
-              <div class="info">
-                     <p class="semi-bold">Schwerer Unfall beim Großen Preis von Deutschland am 1. August 1976.</p> 
-                  <p>Bereits 42 Tage später, nach zwei verpassten Rennen, nahm Niki Lauda wieder am Großen Preis von Italien teil.</p>
-                </div>
-            </li>
+            </li> 
         </ul>
     </div>
 </div>

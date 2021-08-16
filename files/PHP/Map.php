@@ -105,8 +105,8 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([47.22049559238947, 14.767590478675974]).bindPopup(
-		"<b>Austrian Grand Prix/Styrian Grand Prix </b> <p> Im Rennkalender: 1964, 1970–1987, 1997–2003, seit 2014 <br> Streckenlänge: 4,318 km <br> Rennlänge: 306,452 km in 71 Runden <br> Rundenrekord: 1:06:200 (2021, Max Verstappen, Red Bull Racing) <br> Rundenrekord Qualifikation: 1:02,939 (2020, Valtteri Bottas, Mercedes) <br> Die meisten Siege: Alain Prost/Max Verstappen je (3) <br> Die meisten Poles: René Arnoux/Valtteri Bottas/Niki Lauda (je 3)"
-	).addTo(meineKarte);
+		"<b>Austrian Grand Prix/Styrian Grand Prix </b> <p> Im Rennkalender: 1964, 1970–1987, 1997–2003, seit 2014 <br> Streckenlänge: 4,318 km <br> Rennlänge: 306,452 km in 71 Runden <br> Rundenrekord: 1:06:200 (2021, Max Verstappen, Red Bull Racing) <br> Rundenrekord Qualifikation: 1:02,939 (2020, Valtteri Bottas, Mercedes) <br> Die meisten Siege: Alain Prost/Max Verstappen je (3) <br> Die meisten Poles: René Arnoux/Valtteri Bottas/<a href='Lauda.php' style='color: black'>Niki Lauda </a>(je 3)"
+	).addTo(meineKarte); 
 
   var meinMarker = L.marker([52.07366280063156, -1.0131000327244324]).bindPopup(
 		"<b>British Grand Prix </b> <p> Im Rennkalender: seit 1950 <br> Streckenlänge: 5,891 km <br> Rennlänge: 306,198 km in 52 Runden <br> Rundenrekord: 1:27,097 (2020, Max Verstappen, Red Bull-Honda) <br> Rundenrekord Qualifikation: 1:24,303 (2020, Lewis Hamilton, Mercedes) <br> Die meisten Siege: <a href='LH.php' style='color: black'>Lewis Hamilton (7)</a> <br> Die meisten Poles: <a href='LH.php' style='color: black'>Lewis Hamilton (7)</a>"
@@ -121,7 +121,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([52.38779975128846, 4.544985273877893]).bindPopup(
-		"<b>Dutch Grand Prix </b> <p> Im Rennkalender: 1952, 1953, 1955, 1958–1971, 1973–1985, ab 2021 <br> Streckenlänge: 4,252 km <br> Rennlänge: 301,892 km in 71 Runden <br> Rundenrekord: 1:16,538 (1985, Alain Prost, McLaren-TAG) <br> Rundenrekord Qualifikation: 1:11,074 (1985, Nelson Piquet, Brabham-BMW) <br> Die meisten Siege: Jim Clark (4) <br> Die meisten Poles: René Arnoux (3)"
+		"<b>Dutch Grand Prix </b> <p> Im Rennkalender: 1952, 1953, 1955, 1958–1971, 1973–1985, ab 2021 <br> Streckenlänge: 4,252 km <br> Rennlänge: 301,892 km in 71 Runden <br> Rundenrekord: 1:16,538 (1985, Alain Prost, McLaren-TAG) <br> Rundenrekord Qualifikation: 1:11,074 (1985, Nelson Piquet, Brabham-BMW) <br> Die meisten Siege: <a href='Clark.php' style='color: black'>Jim Clark</a> (4) <br> Die meisten Poles: René Arnoux (3)"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([45.62231406137463, 9.28607967260212]).bindPopup(
@@ -145,7 +145,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([19.405985264147436, -99.09198516161604]).bindPopup(
-		"<b>Mexican Grand Prix </b> <p> Im Rennkalender: 1963–1970, 1986–1992, seit 2015 <br> Streckenlänge: 4,304 km <br> Rennlänge: 305,584 km in 71 Runden <br> Rundenrekord: 1:18,741 (2018, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:14,758 (2019, Max Verstappen, Red Bull-Honda) <br> Die meisten Siege: Jim Clark/<a href='LH.php' style='color: black'>Lewis Hamilton</a>/Nigel Mansell/Alain Prost/Max Verstappen (je 2) <br> Die meisten Poles: Jim Clark (4)"
+		"<b>Mexican Grand Prix </b> <p> Im Rennkalender: 1963–1970, 1986–1992, seit 2015 <br> Streckenlänge: 4,304 km <br> Rennlänge: 305,584 km in 71 Runden <br> Rundenrekord: 1:18,741 (2018, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:14,758 (2019, Max Verstappen, Red Bull-Honda) <br> Die meisten Siege: <a href='Clark.php' style='color: black'>Jim Clark</a>/<a href='LH.php' style='color: black'>Lewis Hamilton</a>/Nigel Mansell/Alain Prost/Max Verstappen (je 2) <br> Die meisten Poles: <a href='Clark.php' style='color: black'>Jim Clark (4)</a>"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([-23.70107692161238, -46.69711755395441]).bindPopup(

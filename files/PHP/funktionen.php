@@ -75,6 +75,9 @@ function my_html_head ( $title) {
             <li class="hover-me"><a href="Senna.php">Ayrton Senna</a></li>
             <li class="hover-me"><a href="Seb.php">Sebastian Vettel</a></li>
             <li class="hover-me"><a href="Lauda.php">Niki Lauda</a></li>
+            <li class="hover-me"><a href="Clark.php">Jim Clark</a></li>
+            <li class="hover-me"><a href="Mansell.php">Niguel Mansell</a></li>
+            <li class="hover-me"><a href="Prost.php">Alain Prost</a></li>
         </ul>
     </div>
   EOH;
