@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Alain Prost</title>
+	<title>Nico Rosberg</title>
 	<link rel="stylesheet" href="../CSS/steckbrief.css">
 	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
@@ -37,12 +37,12 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 <div class="resume">
    <div class="resume_left">
      <div class="resume_profile">
-        <a href="#"><img src="../../images/Prost.jpg"/></a>
+        <a href="#"><img src="../../images/Rosberg.jpg"/></a>
      </div>
      <div class="resume_content">
        <div class="resume_item resume_info">
          <div class="title">
-           <p class="bold">Alain Prost</p>
+           <p class="bold">Nico Rosberg</p>
            <p class="regular">Formel1-Rekordweltmeister</p>
          </div>
          <ul>
@@ -51,7 +51,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-trophy"></i>
              </div>
              <div class="data">
-               4 Fahrerweltmeistertitel
+               1 Fahrerweltmeistertitel
              </div>
              </li>
            <li>
@@ -59,7 +59,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-flag-checkered"></i>
              </div>
              <div class="data">
-              51 Grand Prix Siege
+               23 Grand Prix Siege
              </div>
            </li>
            <li>
@@ -67,7 +67,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-stopwatch"></i>
              </div>
              <div class="data">
-               33 Pole Positions
+               30 Pole Positions
              </div>
            </li>
            <li>
@@ -75,7 +75,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-history"></i>
              </div>
              <div class="data"> 
-               41 schnellste Rennrunden
+               20 schnellste Rennrunden
              </div>
            </li>
          </ul>
@@ -90,36 +90,36 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                EXP
              </div>
              <div class="skill_progress">
-               <span style="width: 85%;"></span>
+               <span style="width: 86%;"></span>
              </div>
-             <div class="skill_per">85</div>
+             <div class="skill_per">86</div>
            </li>
            <li>
              <div class="skill_name">
                AWA
              </div>
              <div class="skill_progress">
-               <span style="width: 92%;"></span>
+               <span style="width: 91%;"></span>
              </div>
-             <div class="skill_per">92</div>
+             <div class="skill_per">91</div>
            </li>
            <li>
              <div class="skill_name">
                RAC
              </div>
              <div class="skill_progress">
-               <span style="width: 93%;"></span>
+               <span style="width: 89%;"></span>
              </div>
-             <div class="skill_per">93</div>
+             <div class="skill_per">89</div>
            </li>
            <li>
              <div class="skill_name">
                PAC
              </div>
              <div class="skill_progress">
-               <span style="width: 94%;"></span>
+               <span style="width: 88%;"></span>
              </div>
-             <div class="skill_per">94</div>
+             <div class="skill_per">88</div>
            </li>
            <hr style="color: white">
            <br>
@@ -128,9 +128,9 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <b>Tot. Rating</b>
              </div>
              <div class="skill_progress">
-               <span style="width: 93%;"></span>
+               <span style="width: 89%;"></span>
              </div>
-             <div class="skill_per"><b>93</b></div>
+             <div class="skill_per"><b>89</b></div>
            </li>
          </ul>
        </div>
@@ -141,11 +141,29 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
          <ul>
            <li>
              <div class="icon">
+               <i class="fab fa-facebook-square"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Facebook</p>
+               <a style="color: white; text-decoration: none" href="https://www.facebook.com/nicorosberg" target="_blank"><p>Nico Rosberg</p></a>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
                <i class="fab fa-twitter-square"></i>
              </div>
              <div class="data">
                <p class="semi-bold">Twitter</p>
-               <a style="color: white; text-decoration: none" href="https://twitter.com/prost_official?lang=de" target="_blank"><p>@Prost_official</p></a>
+               <a style="color: white; text-decoration: none" href="www.twitter.com/nicorosberg" target="_blank"><p>@nicorosberg</p></a>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-youtube"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Youtube</p>
+               <a style="color: white; text-decoration: none" href="https://www.youtube.com/channel/UCtLZ6qQgB-EwQy5HWIo3X-w" target="_blank"><p>Nico Rosberg</p></a>
              </div>
            </li>
            <li>
@@ -154,7 +172,16 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
              </div>
              <div class="data">
                <p class="semi-bold">Instagram</p>
-               <a style="color: white; text-decoration: none" href="https://www.instagram.com/a.prost/?hl=de" target="_blank"><p>@a.prost</p></a>
+               <a style="color: white; text-decoration: none" href="https://www.instagram.com/nicorosberg/?hl=de" target="_blank"><p>@nicorosberg</p></a>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+                <i class="fas fa-globe"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Offizielle Website</p>
+               <a style="color: white; text-decoration: none" href="http://nicorosberg.com/" target="_blank"><p>Nico Rosberg</p></a>
              </div>
            </li>
          </ul>
@@ -166,10 +193,10 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
         <div class="title">
            <p class="bold">Einführung</p>
          </div>
-        <p>Alain Marie Pascal Prost, OBE (* 24. Februar 1955 in Saint-Chamond) ist ein französischer Automobilrennfahrer armenisch-französischer Herkunft. 
-           Zwischen 1980 und 1993 startete er bei insgesamt 199 Grand Prix in der Formel 1. 
-           In der Zeit von 1997 bis 2001 führte Prost sein eigenes Formel-1-Team namens Prost Grand Prix. 
-           Seit 2003 ist er wieder als Rennfahrer aktiv und startet regelmäßig in der französischen Eisrennserie Trophée Andros.
+        <p>Nico Erik Rosberg (* 27. Juni 1985 in Wiesbaden) ist ein ehemaliger deutsch-finnischer Automobilrennfahrer und Investor. 
+           Als Sohn des finnischen Formel-1-Weltmeisters Keke Rosberg und einer Deutschen hält er beide Staatsbürgerschaften. 
+           Er trat bis Ende 2003 mit finnischer und ab 2004 mit deutscher Rennlizenz an.
+           Er gewann 2005 die GP2-Serie und startete ab dem Jahr 2006 in der Formel 1. 
         </p>
     </div>
     <div class="resume_item resume_work">
@@ -178,38 +205,17 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
          </div>
         <ul>
             <li>
-                <div class="date">1980</div> 
+                <div class="date">2006–2009</div> 
                 <div class="info">
-                     <p class="semi-bold">McLaren</p> 
-                  <p>Formel 1 Debut am 13. Januar 1980 in Buenos Aires (Argentinien)</p>
-                </div>
-            </li>
-            <li>
-              <div class="date">1981-1983</div>
-              <div class="info">
-                     <p class="semi-bold">Renault</p> 
-                  <p></p>
-                </div>
-            </li>
-            <li>
-              <div class="date">1984-1989</div>
-              <div class="info">
-                     <p class="semi-bold">McLaren</p> 
-                  <p>Formel 1 Weltmeister 1985, 1986 und 1989</p>
-                </div>
-            </li>
-            <li>
-              <div class="date">1990-1991</div>
-              <div class="info">
-                     <p class="semi-bold">Scuderia Ferrari</p> 
-                  <p></p>
-                </div>
-            </li>
-            <li>
-              <div class="date">1993</div>
-              <div class="info">
                      <p class="semi-bold">Williams</p> 
-                  <p>Formel 1 Weltmeister 1993</p>
+                  <p>Formel 1 Debut am 12.03.2006 in Sakhir (Bahrain)</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2010–2016</div>
+              <div class="info">
+                     <p class="semi-bold">Mercedes</p> 
+                  <p>Formel1 Weltmeister 2016</p>
                 </div>
             </li>
         </ul>
@@ -220,24 +226,26 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
          </div>
       <ul>
             <li>
-                <div class="date">1981</div> 
+                <div class="date">2012</div> 
                 <div class="info">
                      <p class="semi-bold">Erster Formel 1 Sieg</p> 
-                  <p> Am 05.07.1981 auf dem Stade Automobile de Dijon-Prenois in Frankreich.</p>
+                  <p> Am 15. April 2012 auf dem Shanghai International Circuit in China.</p>
                 </div>
             </li>
             <li>
-              <div class="date">1985</div>
+              <div class="date">2013</div>
               <div class="info">
-                     <p class="semi-bold">Gewinn des ersten Formel 1 Weltmeistertitels</p> 
-                  <p>Am 6. Oktober 1985 auf dem Brands Hatch Circuit in England.</p>
+                     <p class="semi-bold">Rennsieg beim Großen Preis von Monaco</p> 
+                  <p>Am 26. Mai 2013, exakt 20 Jahre nach seinem Vater Keke, gewann Nico das prestigeträchtige Rennen auf dem Circuit de Monaco.</p>
                 </div>
             </li>
             <li>
-              <div class="date">1993</div>
+              <div class="date">2016</div>
               <div class="info">
-                     <p class="semi-bold">Gewinn des letzten Formel 1 Weltmeistertitels</p> 
-                  <p>Am 26. September 1993 auf dem Autódromo Fernanda Pires da Silvaist in Portugal.</p>
+                     <p class="semi-bold">Gewinn des Formel 1 Weltmeistertitels</p> 
+                  <p>Am 27. November 2016 auf dem Yas Marina Circuit in Abu Dhabi.
+                     Nach dieser Saison beendete Nico Rosberg seine aktive Karriere als Formel 1 Fahrer.
+                  </p>
                 </div>
             </li>
         </ul>

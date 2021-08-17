@@ -85,7 +85,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
   
   var meinMarker = L.marker([37.23213846586531, -8.627348584866924]).bindPopup(
-		"<b>Portuguese Grand Prix </b> <p> Im Rennkalender: 1958–1960, 1984–1996, 2020, 2021 <br> Streckenlänge: 4,635 km <br> Rennlänge: 306,826 km in 66 Runden <br> Rundenrekord: 1:18,750 (2020, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:16,466 (2020, Valtteri Bottas, Mercedes) <br> Die meisten Siege: Nigel Mansell/Alain Prost (je 3) <br> Die meisten Poles: <a href='Senna.php' style='color: black'>Ayrton Senna (3)</a>"
+		"<b>Portuguese Grand Prix </b> <p> Im Rennkalender: 1958–1960, 1984–1996, 2020, 2021 <br> Streckenlänge: 4,635 km <br> Rennlänge: 306,826 km in 66 Runden <br> Rundenrekord: 1:18,750 (2020, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:16,466 (2020, Valtteri Bottas, Mercedes) <br> Die meisten Siege: <a href='Mansell.php' style='color: black'>Nigel Mansell</a>/<a href='Prost.php' style='color: black'>Alain Prost</a> (je 3) <br> Die meisten Poles: <a href='Senna.php' style='color: black'>Ayrton Senna (3)</a>"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([41.56873183070386, 2.258286903890934]).bindPopup(
@@ -105,7 +105,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([47.22049559238947, 14.767590478675974]).bindPopup(
-		"<b>Austrian Grand Prix/Styrian Grand Prix </b> <p> Im Rennkalender: 1964, 1970–1987, 1997–2003, seit 2014 <br> Streckenlänge: 4,318 km <br> Rennlänge: 306,452 km in 71 Runden <br> Rundenrekord: 1:06:200 (2021, Max Verstappen, Red Bull Racing) <br> Rundenrekord Qualifikation: 1:02,939 (2020, Valtteri Bottas, Mercedes) <br> Die meisten Siege: Alain Prost/Max Verstappen je (3) <br> Die meisten Poles: René Arnoux/Valtteri Bottas/<a href='Lauda.php' style='color: black'>Niki Lauda </a>(je 3)"
+		"<b>Austrian Grand Prix/Styrian Grand Prix </b> <p> Im Rennkalender: 1964, 1970–1987, 1997–2003, seit 2014 <br> Streckenlänge: 4,318 km <br> Rennlänge: 306,452 km in 71 Runden <br> Rundenrekord: 1:06:200 (2021, Max Verstappen, Red Bull Racing) <br> Rundenrekord Qualifikation: 1:02,939 (2020, Valtteri Bottas, Mercedes) <br> Die meisten Siege: <a href='Prost.php' style='color: black'>Alain Prost</a>/Max Verstappen je (3) <br> Die meisten Poles: René Arnoux/Valtteri Bottas/<a href='Lauda.php' style='color: black'>Niki Lauda </a>(je 3)"
 	).addTo(meineKarte); 
 
   var meinMarker = L.marker([52.07366280063156, -1.0131000327244324]).bindPopup(
@@ -129,7 +129,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([43.41012537125325, 39.96973450046644]).bindPopup(
-		"<b>Russian Grand Prix </b> <p> Im Rennkalender: seit 2014 <br> Streckenlänge: 5,848 km <br> Rennlänge: 309,944 km in 53 Runden <br> Rundenrekord: 1:35,761 (2019, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:31,304 (2020, Lewis Hamilton, Mercedes)  <br> Die meisten Siege: <a href='LH.php' style='color: black'>Lewis Hamilton (4)</a> <br> Die meisten Poles: <a href='LH.php' style='color: black'>Lewis Hamilton</a>/Nico Rosberg (2)"
+		"<b>Russian Grand Prix </b> <p> Im Rennkalender: seit 2014 <br> Streckenlänge: 5,848 km <br> Rennlänge: 309,944 km in 53 Runden <br> Rundenrekord: 1:35,761 (2019, Lewis Hamilton, Mercedes) <br> Rundenrekord Qualifikation: 1:31,304 (2020, Lewis Hamilton, Mercedes)  <br> Die meisten Siege: <a href='LH.php' style='color: black'>Lewis Hamilton (4)</a> <br> Die meisten Poles: <a href='LH.php' style='color: black'>Lewis Hamilton</a>/<a href='Rosberg.php' style='color: black'>Nico Rosberg</a> (2)"
 	).addTo(meineKarte);
   
   var meinMarker = L.marker([40.95805171866285, 29.412393729206062]).bindPopup(
@@ -145,11 +145,11 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([19.405985264147436, -99.09198516161604]).bindPopup(
-		"<b>Mexican Grand Prix </b> <p> Im Rennkalender: 1963–1970, 1986–1992, seit 2015 <br> Streckenlänge: 4,304 km <br> Rennlänge: 305,584 km in 71 Runden <br> Rundenrekord: 1:18,741 (2018, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:14,758 (2019, Max Verstappen, Red Bull-Honda) <br> Die meisten Siege: <a href='Clark.php' style='color: black'>Jim Clark</a>/<a href='LH.php' style='color: black'>Lewis Hamilton</a>/Nigel Mansell/Alain Prost/Max Verstappen (je 2) <br> Die meisten Poles: <a href='Clark.php' style='color: black'>Jim Clark (4)</a>"
+		"<b>Mexican Grand Prix </b> <p> Im Rennkalender: 1963–1970, 1986–1992, seit 2015 <br> Streckenlänge: 4,304 km <br> Rennlänge: 305,584 km in 71 Runden <br> Rundenrekord: 1:18,741 (2018, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:14,758 (2019, Max Verstappen, Red Bull-Honda) <br> Die meisten Siege: <a href='Clark.php' style='color: black'>Jim Clark</a>/<a href='LH.php' style='color: black'>Lewis Hamilton</a>/<a href='Mansell.php' style='color: black'>Nigel Mansell</a>/<a href='Prost.php' style='color: black'>Alain Prost</a>/Max Verstappen (je 2) <br> Die meisten Poles: <a href='Clark.php' style='color: black'>Jim Clark (4)</a>"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([-23.70107692161238, -46.69711755395441]).bindPopup(
-		"<b>Brazilian Grand Prix </b> <p> Im Rennkalender: 1973–2019 <br> Streckenlänge: 4,309 km <br> Rennlänge: 305,909 km in 71 Runden <br> Rundenrekord: 1:10,540 (2018, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:07,281 (2018, Lewis Hamilton, Mercedes) <br> Die meisten Siege: Alain Prost (6) <br> Die meisten Poles: <a href='MSC.php' style='color: black'>Ayrton Senna (6)</a>"
+		"<b>Brazilian Grand Prix </b> <p> Im Rennkalender: 1973–2019 <br> Streckenlänge: 4,309 km <br> Rennlänge: 305,909 km in 71 Runden <br> Rundenrekord: 1:10,540 (2018, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:07,281 (2018, Lewis Hamilton, Mercedes) <br> Die meisten Siege: <a href='Prost.php' style='color: black'>Alain Prost (6)</a> <br> Die meisten Poles: <a href='MSC.php' style='color: black'>Ayrton Senna (6)</a>"
 	).addTo(meineKarte);
 
   var meinMarker = L.marker([22.29758599323335, 40.4121185743208]).bindPopup(

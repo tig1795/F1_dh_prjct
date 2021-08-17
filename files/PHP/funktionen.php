@@ -78,6 +78,7 @@ function my_html_head ( $title) {
             <li class="hover-me"><a href="Clark.php">Jim Clark</a></li>
             <li class="hover-me"><a href="Mansell.php">Niguel Mansell</a></li>
             <li class="hover-me"><a href="Prost.php">Alain Prost</a></li>
+            <li class="hover-me"><a href="Rosberg.php">Nico Rosberg</a></li>
         </ul>
     </div>
   EOH;
@@ -98,7 +99,21 @@ function my_html_head ( $title) {
   active_or_hover ($title, "about");
   
   print <<<EOH
-  <a href="#"><i class="fa fa-users"></i>Teams</a>
+  <a href="Teams.php"><i class="fa fa-users"></i>Teams</a>
+    <div class="sub-menu-1">
+        <ul>
+            <li><a href="Mercedes.php">Mercedes-AMG Petronas</a></li>
+            <li class="hover-me"><a href="Red Bull.php">Red Bull Racing</a></li>
+            <li class="hover-me"><a href="Ferrari.php">Scuderia Ferrari</a></li>
+            <li class="hover-me"><a href="Aston.php">Aston Martin F1 Team</a></li>
+            <li class="hover-me"><a href="McLaren.php">McLaren F1 Team</a></li>
+            <li class="hover-me"><a href="Alpin.php">Alpine F1 Team</a></li>
+            <li class="hover-me"><a href="Alpha.php">AlphaTauri</a></li>
+            <li class="hover-me"><a href="Romeo.php">Alfa Romeo Racing</a></li>
+            <li class="hover-me"><a href="Williams.php">Williams Racing</a></li>
+            <li class="hover-me"><a href="Haas.php">Haas F1</a></li>
+        </ul>
+    </div>
   EOH;
   
         if(!isset($_SESSION['userid'])) {

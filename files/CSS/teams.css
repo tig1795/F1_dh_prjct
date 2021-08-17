@@ -1,0 +1,27 @@
+#management{
+width:100%;
+max-height:400px;
+position:relative;
+display:block;
+margin:0;
+padding:0;
+}
+
+.linke_spalte, .rechte_spalte{
+width:50%;
+float:left;
+display:inline-block;
+text-align: center;
+margin:0;
+padding:0;
+}
+
+.linke_spalte img, .rechte_spalte img{
+width:60%;
+margin:0;
+padding:0;
+}
+
+h2{
+    text-align: center;
+}
