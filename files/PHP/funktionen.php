@@ -86,7 +86,13 @@ function my_html_head ( $title) {
   active_or_hover ($title, "community");
   
   print <<<EOH
-  <a href="#"><i class="fa fa-trophy"></i>Trophies</a>
+  <a href="#"><i class="fa fa-desktop"></i>F1Game</a>
+    <div class="sub-menu-1">
+      <ul>
+      <li><a href="#">F1 2019 vs F1 2021</a></li>
+      <li class="hover-me"><a href="#">Fahrsimulator</a></li>
+      </ul>
+    </div>
   EOH;
   
   active_or_hover ($title, "karte");
@@ -99,7 +105,7 @@ function my_html_head ( $title) {
   active_or_hover ($title, "about");
   
   print <<<EOH
-  <a href="Teams.php"><i class="fa fa-users"></i>Teams</a>
+  <a href="#"><i class="fa fa-users"></i>Teams</a>
     <div class="sub-menu-1">
         <ul>
             <li><a href="Mercedes.php">Mercedes-AMG Petronas</a></li>
