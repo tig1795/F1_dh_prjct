@@ -83,14 +83,14 @@ function my_html_head ( $title) {
     </div>
   EOH;
   
-  active_or_hover ($title, "community");
+  active_or_hover ($title, "Games");
   
   print <<<EOH
   <a href="#"><i class="fa fa-desktop"></i>F1Game</a>
     <div class="sub-menu-1">
       <ul>
-      <li><a href="#">F1 2019 vs F1 2021</a></li>
-      <li class="hover-me"><a href="#">Fahrsimulator</a></li>
+      <li><a href="Games.php">F1 2019 vs F1 2021</a></li>
+      <li class="hover-me"><a href="simulator.php">Fahrsimulator</a></li>
       </ul>
     </div>
   EOH;
