@@ -1,46 +1,23 @@
-/* Automatic Slideshow */
+/*===== EXPANDER MENU  =====*/ 
+const showMenu = (toggleId, navId)=>{
+  const toggle = document.getElementById(toggleId),
+  nav = document.getElementById(navId)
 
-/* var slideIndex = 0;
-showSlides();
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+  if(toggle && nav){
+    toggle.addEventListener('click', ()=>{
+      nav.classList.toggle('show')
+      toggle.classList.toggle('bx-x')
+    })
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
-} */
-
-/* Slideshow to click */
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
 }
+showMenu('header-toggle','nav-menu')
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+/*===== ACTIVE AND REMOVE MENU =====*/
+const navLink = document.querySelectorAll('.nav__link');   
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" activedot", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " activedot";
+function linkAction(){
+/*Active link*/
+navLink.forEach(n => n.classList.remove('active'));
+this.classList.add('active');
 }
+navLink.forEach(n => n.addEventListener('click', linkAction));

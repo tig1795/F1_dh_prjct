@@ -20,7 +20,7 @@ require ( "funktionen.php" );
 
 // Menükategorien: index rezepte magazin community videos dinner meinkochbuch
 $title ="Games";
-my_html_head ( $title );  
+my_html_head2 ();  
 
 $name_der_db  = "f1";
 $benutzer     = "root";
@@ -32,7 +32,9 @@ $link = our_sql_connect ( $server, $benutzer, $passwort, $name_der_db );
 $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid überprüft.
 
 print <<<EOH
-<br>  
+<br>
+<br>
+<br>
 <h1>Formel 1 Simulator</h1>
 <br>
 <br>
@@ -76,3 +78,7 @@ vermittelt.
 <br>
 
 EOH;
+
+my_html_foot()
+
+?>

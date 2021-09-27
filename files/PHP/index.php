@@ -5,7 +5,6 @@ $countryResult = $db_handle->runQuery("SELECT DISTINCT Champion FROM f1_driver_w
 ?>
 <html>
 <head>
-<link rel="stylesheet" href="../CSS/menubar.css">
 <link rel="stylesheet" href="../CSS/table.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Alle Formel 1 Weltmeister der Geschichte</title>
@@ -24,7 +23,7 @@ require ( "funktionen.php" );
 
 // Menükategorien: index rezepte magazin community videos dinner meinkochbuch
 $title ="statistik";
-my_html_head ( $title );  
+my_html_head2 ( $title );  
 
 $name_der_db  = "f1";
 $benutzer     = "root";
@@ -35,7 +34,8 @@ $link = our_sql_connect ( $server, $benutzer, $passwort, $name_der_db );
   
 $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid überprüft.
 ?>
-
+<br>
+<br>
 <br>
     <h2>Alle Formel 1 Weltmeister der Geschichte</h2>
     <form method="POST" name="search" action="index.php">
@@ -57,7 +57,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                 <?php
                 if (! empty($_POST['champion'])) {
                     ?>
-                    <table cellpadding="200" cellspacing="20">
+                    <table cellpadding="10" cellspacing="20">
 
                 <thead>
                     <tr>

@@ -10,7 +10,6 @@
 
 	
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
-	<link rel="stylesheet" href="../CSS/menubar.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
 
@@ -50,7 +49,7 @@ require ( "funktionen.php" );
 
 // Menükategorien: index rezepte magazin community videos dinner meinkochbuch
 $title ="karte";
-my_html_head ( $title );  
+my_html_head2 ();  
 
 $name_der_db  = "f1";
 $benutzer     = "root";
@@ -63,6 +62,8 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 
 ?>
 
+<br>
+<br>
 <br>
 	<h2> Rennkalender der Formel 1 Saison 2021 </h2>
 

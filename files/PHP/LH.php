@@ -20,7 +20,7 @@ require ( "funktionen.php" );
 
 // Menükategorien: index rezepte magazin community videos dinner meinkochbuch
 $title ="fahrer";
-my_html_head ( $title );  
+my_html_head2();  
 
 $name_der_db  = "f1";
 $benutzer     = "root";
@@ -33,7 +33,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 
 ?>
 <br>
-
+<br>
 <div class="resume">
    <div class="resume_left">
      <div class="resume_profile">

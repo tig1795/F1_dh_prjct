@@ -189,6 +189,7 @@ function my_isset_post ( $text ) {
 // Statischer HTML Fuss, nach dem Seiteninhalt
 function my_html_foot () {
   print<<<EndOfHtml
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
   <hr>
   <br>
 <div id="footer">
@@ -221,5 +222,108 @@ function my_html_foot () {
 EndOfHtml;
 }
 
+function my_html_head2 () {	
+  $server = $_SERVER["SERVER_NAME"]; //Abfragung der Servervariable
+  print <<<EOH
+  <!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="../CSS/menubar_copy.css">
+        <link rel="stylesheet" href="../CSS/Fußzeile.css">
+        <title>Responsive menu dropdown</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="MenuBar.php" class="header__logo">F1</a>
+
+            <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+
+            <nav class="nav" id="nav-menu">
+                <div class="nav__content bd-grid">
+                    <a href="MenuBar.php" class="nav__perfil">
+                        <div class="nav__img">
+                            <img src="../../images/F1_Logo.png" alt="">
+                        </div>
+                        <!-- 
+                        <div>
+                            <span class="nav__name">Clay</span>
+                            <span class="nav__name">Mitchell</span>
+                        </div> -->
+                    </a>
+    
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                        
+                            <li class="nav__item"><a href="MenuBar.php" class="nav__link active">Home</a></li>
+    
+                            <li class="nav__item dropdown">
+                                <a href="#" class="nav__link dropdown__link">Statistics <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                                    
+                                <ul class="dropdown__menu">
+                                    <li class="dropdown__item"><a href="index.php" class="nav__link">Fahrerwertung</a></li>
+                                    <li class="dropdown__item"><a href="constructeur.php" class="nav__link">Konstrukteure</a></li>
+                                </ul>
+                            </li>
+    
+                            <li class="nav__item dropdown">
+                                <a href="#" class="nav__link dropdown__link">Legends <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                                <ul class="dropdown__menu">
+                                    <li class="dropdown__item"><a href="MSC.php" class="nav__link">Michael Schumacher</a></li>
+                                    <li class="dropdown__item"><a href="LH.php" class="nav__link">Lewis Hamilton</a></li>
+                                    <li class="dropdown__item"><a href="Senna.php" class="nav__link">Ayrton Senna</a></li>
+                                    <li class="dropdown__item"><a href="Seb.php" class="nav__link">Sebastian Vettel</a></li>
+                                    <li class="dropdown__item"><a href="Lauda.php" class="nav__link">Niki Lauda</a></li>
+                                    <li class="dropdown__item"><a href="Clark.php" class="nav__link">Jim Clark</a></li>
+                                    <li class="dropdown__item"><a href="Mansell.php" class="nav__link">Niguel Mansell</a></li>
+                                    <li class="dropdown__item"><a href="Prost.php" class="nav__link">Alain Prost</a></li>
+                                    <li class="dropdown__item"><a href="Rosberg.php" class="nav__link">Nico Rosberg</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav__item dropdown">
+                                <a href="#" class="nav__link dropdown__link">F1 Games <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                                    
+    
+                                <ul class="dropdown__menu">
+                                    <li class="dropdown__item"><a href="Games.php" class="nav__link">F1 2019 vs. F1 2021</a></li>
+                                    <li class="dropdown__item"><a href="simulator.php" class="nav__link">Fahrsimulator</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav__item"><a href="Map.php" class="nav__link">Calendar</a></li>
+
+                            <li class="nav__item dropdown">
+                                <a href="#" class="nav__link dropdown__link">Teams <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                                    
+    
+                                <ul class="dropdown__menu">
+                                    <li class="dropdown__item"><a href="Mercedes.php" class="nav__link">Mercedes-AMG Petronas</a></li>
+                                    <li class="dropdown__item"><a href="Red Bull.php" class="nav__link">Red Bull Racing</a></li>
+                                    <li class="dropdown__item"><a href="Ferrari.php" class="nav__link">Scuderia Ferrari</a></li>
+                                    <li class="dropdown__item"><a href="Aston.php" class="nav__link">Aston Martin F1 Team</a></li>
+                                    <li class="dropdown__item"><a href="McLaren.php" class="nav__link">McLaren F1 Team</a></li>
+                                    <li class="dropdown__item"><a href="Alpin.php" class="nav__link">Alpine F1 Team</a></li>
+                                    <li class="dropdown__item"><a href="Alpha.php" class="nav__link">AlphaTauri</a></li>
+                                    <li class="dropdown__item"><a href="Romeo.php" class="nav__link">Alfa Romeo Racing</a></li>
+                                    <li class="dropdown__item"><a href="Williams.php" class="nav__link">Williams Racing</a></li>
+                                    <li class="dropdown__item"><a href="Haas.php" class="nav__link">Haas F1</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item"><a href="login.php" class="nav__link">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--===== MAIN JS =====-->
+        <script src="../JavaScript/script.js"></script>
+    </body>
+</html>
+EOH; 
+}
 ?>
