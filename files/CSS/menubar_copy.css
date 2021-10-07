@@ -136,7 +136,7 @@ a {
 }
 
 .nav__link {
-  color: var(--first-color-light);
+  color: var(--first-color);
 }
 
 .nav__link:hover {
@@ -264,4 +264,9 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+#menu-wplook-main-menu li a.active {
+  color:#e53b51;
+  background: blue;
 }

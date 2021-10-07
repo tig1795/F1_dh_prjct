@@ -19,7 +19,7 @@ $script = $_SERVER["SCRIPT_NAME"]; //Hinterlgete Pfade //wird vermutlich nicht b
 require ( "funktionen.php" );
 
 // Menükategorien: index rezepte magazin community videos dinner meinkochbuch
-$title ="about";
+$title ="teams";
 my_html_head ( $title );  
 
 $name_der_db  = "f1";

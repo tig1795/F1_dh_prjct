@@ -12,12 +12,20 @@ const showMenu = (toggleId, navId)=>{
 }
 showMenu('header-toggle','nav-menu')
 
-/*===== ACTIVE AND REMOVE MENU =====*/
-const navLink = document.querySelectorAll('.nav__link');   
+/*===== ACTIVE AND REMOVE MENU =====
+const navLink = document.querySelectorAll('.nav__link');/*
 
 function linkAction(){
-/*Active link*/
+/*Active link
 navLink.forEach(n => n.classList.remove('active'));
 this.classList.add('active');
 }
-navLink.forEach(n => n.addEventListener('click', linkAction));
+navLink.forEach(n => n.addEventListener('click', linkAction));*/
+
+$(document).ready(function () {
+  $('#menu-wplook-main-menu').find('li a').click(function () {
+      $('#menu-wplook-main-menu').find('li a').removeClass('active');
+      $(this).addClass('active');
+      $($(this).closest('li.nav__item').children()[0]).addClass('active');
+  });
+});

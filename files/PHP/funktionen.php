@@ -257,7 +257,7 @@ function my_html_head2 () {
                     </a>
     
                     <div class="nav__menu">
-                        <ul class="nav__list">
+                        <ul class="nav__list" id="menu-wplook-main-menu">
                         
                             <li class="nav__item"><a href="MenuBar.php" class="nav__link active">Home</a></li>
     
