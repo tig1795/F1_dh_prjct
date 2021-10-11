@@ -40,60 +40,60 @@ $link = our_sql_connect ( $server, $benutzer, $passwort, $name_der_db );
 $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid überprüft.
 ?>
 
-    <header>
+<header>
         <div class="container">
             <input type="checkbox" name="" id="check">
             
             <div class="logo-container">
-                <h3 class="logo">Formel<span>1</span></h3>
+               <a href="test2.0.php"><h3 class="logo">Formel<span>1</span></h3></a>
             </div>
 
             <div class="nav-btn">
                 <div class="nav-links">
                     <ul>
                         <li class="nav-link" style="--i: .6s">
-                            <a href="#">Home</a>
+                            <a href="test2.0.php">Home</a>
                         </li>
                         <li class="nav-link" style="--i: .85s">
                             <a href="#" class="active">Statistics<i class="fas fa-caret-down"></i></a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
-                                        <a href="#">Fahrerwertung</a>
+                                        <a href="index.php">Fahrerwertung</a>
                                     </li>
                                     <li class="dropdown-link">
-                                        <a href="#">Konstrukteure</a>
+                                        <a href="constructeur.php">Konstrukteure</a>
                                     </li>
                                     <li class="dropdown-link">
                                         <a href="#">Legends<i class="fas fa-caret-down"></i></a>
                                         <div class="dropdown second">
                                             <ul>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Michael Schumacher</a>
+                                                    <a href="MSC.php">Michael Schumacher</a>
                                                 </li>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Lewis Hamilton</a>
+                                                    <a href="LH.php">Lewis Hamilton</a>
                                                 </li>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Ayrton Senna</a>
+                                                    <a href="Senna.php">Ayrton Senna</a>
                                                 </li>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Sebastian Vettel</a>
+                                                    <a href="Seb.php">Sebastian Vettel</a>
                                                 </li>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Niki Lauda</a>
+                                                    <a href="Lauda.php">Niki Lauda</a>
                                                 </li>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Jim Clark</a>
+                                                    <a href="Clark.php">Jim Clark</a>
                                                 </li>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Niguel Mansell</a>
+                                                    <a href="Mansell.php">Niguel Mansell</a>
                                                 </li>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Alain Prost</a>
+                                                    <a href="Prost.php">Alain Prost</a>
                                                 </li>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Nico Rosberg</a>
+                                                    <a href="Rosberg.php">Nico Rosberg</a>
                                                 </li>
                                                 <!--
                                                 <li class="dropdown-link">
@@ -114,7 +114,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                                                     </div>
                                                 </li>
                                                 -->
-                                                <div class="arrow"></div>
+                                                <!-- <div class="arrow"></div> -->
                                             </ul>
                                         </div>
                                     </li>
@@ -122,7 +122,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                                     <li class="dropdown-link">
                                         <a href="#">Link 4</a>
                                     </li> -->
-                                    <div class="arrow"></div>
+                                    <!-- <div class="arrow"></div> -->
                                 </ul>
                             </div>
                         </li>
@@ -131,10 +131,10 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
-                                        <a href="#">F1 2019 vs. F1 2020</a>
+                                        <a href="Games.php">F1 2019 vs. F1 2020</a>
                                     </li>
                                     <li class="dropdown-link">
-                                        <a href="#">Fahrsimulator</a>
+                                        <a href="simulator.php">Fahrsimulator</a>
                                     </li>
                                     <li class="dropdown-link">
                                         <a href="#">Künstliche Intelligenz</a> <!--<i class="fas fa-caret-down"></i>
@@ -182,24 +182,42 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
-                                        <a href="#">Rennkalender</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Fahrerpaarungen</a>
+                                        <a href="Map.php">Rennkalender</a>
                                     </li>
                                     <li class="dropdown-link">
                                         <a href="#">Fahrerpaarungen<i class="fas fa-caret-down"></i></a>
                                         <div class="dropdown second">
                                             <ul>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Mercedes AMG Petronas</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Red Bull Racing</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Scuderia Ferrari</a>
-                                                </li>
+                                            <li class="dropdown-link">
+                                                <a href="Mercedes.php">Mercedes AMG Petronas</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                 <a href="Red Bull.php">Red Bull Racing</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                  <a href="Ferrari.php">Scuderia Ferrari</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                  <a href="Aston.php">Aston Martin F1 Team</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                  <a href="McLaren.php">McLaren F1 Team</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                  <a href="Alpin.php">Alpine F1 Team</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                  <a href="Alpha.php">Alpha Tauri</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                  <a href="Romeo.php">Alfa Romeo Racing</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                  <a href="Williams.php">Williams Racing</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                  <a href="Haas.php">Haas F1</a>
+                                            </li>
                                             </ul>
                                         </div>
                                     </li>

@@ -8,7 +8,7 @@
     <header>
         <div class="row">
             <div class="logo-row">
-              <a href="../PHP/Home.php">
+              <a href="../PHP/test2.0.php">
                <img src="../../images/F1_Logo.png" alt="logo" class="logo">
               </a>
             </div>
@@ -22,5 +22,5 @@
 session_start();
 session_destroy();  //Cookies und $_SESSION wird geleert.
  
-echo "Logout erfolgreich. Zurück zur <a href= Home.php> Startseite.</a>";
+echo "Logout erfolgreich. Zurück zur <a href= test2.0.php> Startseite.</a>";
 ?>

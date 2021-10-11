@@ -16,7 +16,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=f1', 'root', ''); //Aufbau der Verbi
 <header>
     <div class="row">
         <div class="logo-row">
-            <a href="Home.php">
+            <a href="test2.0.php">
                <img src="../../images/F1_Logo.png" alt="logo" class="logo">
             </a>
         </div>

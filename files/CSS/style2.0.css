@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
+    /* overflow: hidden; */ /*Auskommentiert, sonst kein scrollen auf der Website möglich.*/
 }
 
 ul{
@@ -21,10 +21,10 @@ a{
 
 header{
     position: sticky;
-    top: 10px;
+    top: 0px;
     background-color: white; /* Hintergrundfarbe der Menüleiste */
     width: 100%;
-    z-index: 1000;
+    z-index: 9999;
     border-bottom:  thin solid #000;
 }
 
@@ -33,7 +33,7 @@ section{
     height: calc(100vh - 3rem);
     width: 100%;
     /*background: url('../../images/bg.jpg') no-repeat top center / cover; */
-    overflow: hidden;
+    /* overflow: hidden; */ /*Auskommentiert, sonst kein scrollen auf der Website möglich.*/
 }
 
 .overlay{
