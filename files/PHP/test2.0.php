@@ -17,7 +17,7 @@ $link = our_sql_connect ( $server, $benutzer, $passwort, $name_der_db );
   
 $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid überprüft.
 
-print<<<EOH
+?>
 
 
 <!DOCTYPE html>
@@ -121,7 +121,7 @@ print<<<EOH
                             </div>
                         </li>
                         <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">F1 Games<i class="fas fa-caret-down"></i></a>
+                            <a href="#">F1 Gaming<i class="fas fa-caret-down"></i></a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
@@ -131,7 +131,7 @@ print<<<EOH
                                         <a href="simulator.php">Fahrsimulator</a>
                                     </li>
                                     <li class="dropdown-link">
-                                        <a href="#">Künstliche Intelligenz</a> <!--<i class="fas fa-caret-down"></i>
+                                        <a href="KI.php">Künstliche Intelligenz</a> <!--<i class="fas fa-caret-down"></i>
                                         <div class="dropdown second">
                                             <ul>
                                                 <li class="dropdown-link">
@@ -220,50 +220,9 @@ print<<<EOH
                         </li>
                     </ul>
                 </div>
-
-                
-EOH;
-
-
-if(!isset($_SESSION['userid'])) {
-    echo '<div class="log-sign" style="--i: 1.8s">
-          <a href="login.php" class="btn transparent" aria-hidden="true">Login</a>';
-}else{
-    /*echo "Hallo User: ".$userid;*/
-    echo <<<eoh
-    <li><a href="#">
-eoh;
-$userid = $_SESSION['userid'];
-$name_der_db  = "f1";
-$benutzer     = "root";
-$passwort     = "";
-$tabellenname = "users";
-
-$links = our_sql_connect ( $server, $benutzer, $passwort, $name_der_db );
-$usernames = "SELECT 
-    id,
-    vorname
-    FROM users WHERE id=$userid";
-    $erg = mysqli_query ( $links, $usernames );
-    while ( $zeile = mysqli_fetch_array ( $erg, MYSQLI_ASSOC ) ) {
-    echo "<text>".$zeile["vorname"]. " </text>";
-    }
-    print <<<eoh
-    <div class="nav-links">
-    <li class="nav-link" style="--i: 2.0s">
-    <i class="fas fa-caret-down"></i>
-        <div class="dropdown">
-            <ul>
-                 <li class="dropdown-link"><a href="logout.php">Logout</a></li>
-            </ul>
-        </div>
-    </li>
-    
-eoh;
-} 
-                
-print <<<EOH
-                    <a href="#" class="btn solid">Sign up</a>
+                <div class="log-sign" style="--i: 1.8s">
+                    <a href="login.php" class="btn transparent" aria-hidden="true">Login</a>
+                    <a href="register.php" class="btn solid">Sign up</a>
                 </div>
             </div>
 
@@ -299,7 +258,7 @@ print <<<EOH
 
 </body>
 </html>
-EOH;
+<?php
 
 my_html_foot()
 

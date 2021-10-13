@@ -34,6 +34,7 @@
 <li>https://www.formula1.com/</li>
 <li>https://de.wikipedia.org/wiki/Liste_der_Formel-1-Weltmeister</li>
 <li>https://de.wikipedia.org/wiki/Formel-1-Statistik</li>
+<li>https://1e9.community/t/in-diesem-rennspiel-sitzt-eine-kuenstliche-intelligenz-am-steuer/619</li>
 <br>
 
 </body>

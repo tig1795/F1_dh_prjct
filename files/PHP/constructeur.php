@@ -104,7 +104,7 @@ $countryResult = $db_handle->runQuery("SELECT DISTINCT Constructor FROM f1_team_
                             </div>
                         </li>
                         <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">F1 Games<i class="fas fa-caret-down"></i></a>
+                            <a href="#">F1 Gaming<i class="fas fa-caret-down"></i></a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
@@ -114,7 +114,7 @@ $countryResult = $db_handle->runQuery("SELECT DISTINCT Constructor FROM f1_team_
                                         <a href="simulator.php">Fahrsimulator</a>
                                     </li>
                                     <li class="dropdown-link">
-                                        <a href="#">Künstliche Intelligenz</a> <!--<i class="fas fa-caret-down"></i>
+                                        <a href="KI.php">Künstliche Intelligenz</a> <!--<i class="fas fa-caret-down"></i>
                                         <div class="dropdown second">
                                             <ul>
                                                 <li class="dropdown-link">
@@ -155,7 +155,7 @@ $countryResult = $db_handle->runQuery("SELECT DISTINCT Constructor FROM f1_team_
                             </div>
                         </li>
                         <li class="nav-link" style="--i: 1.35s">
-                        <a href="#" class="active">F1 Today<i class="fas fa-caret-down"></i></a>
+                        <a href="#">F1 Today<i class="fas fa-caret-down"></i></a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
@@ -205,8 +205,8 @@ $countryResult = $db_handle->runQuery("SELECT DISTINCT Constructor FROM f1_team_
                 </div>
 
                 <div class="log-sign" style="--i: 1.8s">
-                    <a href="#" class="btn transparent">Log in</a>
-                    <a href="#" class="btn solid">Sign up</a>
+                    <a href="login.php" class="btn transparent">Log in</a>
+                    <a href="register.php" class="btn solid">Sign up</a>
                 </div>
             </div>
 
