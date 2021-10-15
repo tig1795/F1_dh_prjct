@@ -243,7 +243,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 </div>
 <div class="ce_text block" id="text_1">
   <br>
-  <p>Sebastian Vettel</p>
+  <a href='Seb.php' style='color: black'><p>Sebastian Vettel</p></a>
   <br>
   <br>
 </div>

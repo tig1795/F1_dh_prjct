@@ -27,9 +27,12 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/style2.0.css">
     <link rel="stylesheet" href="../CSS/Fußzeile.css">
+    <link rel="stylesheet" href="../CSS/text_home.css">
+    <!-- <link rel="stylesheet" href="../CSS/text.css"> -->
     <title>F1</title>
 </head>
 
@@ -239,21 +242,33 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
             <div class="overlay"></div>
         </section> -->
     </main>
-<div style="text-align: center;">
-        <p>
-        <br>
-        <br>  
-        <h2>Welcome to Formula 1!</h2>
-        <br>
-        </p>
+    <div class="introduction">
+    <br>
+    <h2 style="text-align: center;">Welcome to Formula 1!</h2>
+    <br>
+    <p>
+    Gegenstand dieser Seite soll es sein, den User in die Welt der Formel 1 einzuführen. 
+    Unter dem Menüpunkt "Statistics" sind alle Fahrer- und Konstrukteur-Weltmeister der Formel 1 zufinden,
+    sowie ausführliche Steckbriefe zu den Legenden der Königsklasse des Motorsports.
+    Wer sich für den Gaming-Bereich der Formel 1 interessiert wird auch hier fündig. 
+    Unter "F1 Gaming" wird die Evolution der Formel 1 Videospiele dargelegt, auf den Rennsimulator eingegangen
+    und die Funktionsweise der im Videospiel eingesetzten Künstlichen Intelligenz erklärt. 
+    Aber auch zur aktuellen Formel-1-Saison wird man auf dieser Website informiert. 
+    Der Rennkalender wird als Karte mit den entsprechenden Rennstreckeninformationen dargestellt und alle Fahrerpaarungen
+    können der Website entnommen werden. 
+    <br>
+    Viel Spaß damit!
+<br>
+<br>    
+<div class="video-container-wrapper">
+        <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/Sg7-C973cdM" width="540" height=250" frameborder="0" allowfullscreen="allowfullscreen">
+        </iframe>
         </div>
-        <br>
-      <div style="text-align: center;">
-        <object data="https://www.youtube.com/embed/Sg7-C973cdM" width="860" height="515"></object>
-      </div>
+        </div>
+</div>
       <br>
       <br>
- 
 
 
 </body>
