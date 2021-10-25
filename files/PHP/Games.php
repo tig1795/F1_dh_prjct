@@ -294,11 +294,10 @@ Alle anderen Teile des Auto, wie zum Beispiel der Heckflügel oder die Seitenkä
 </p>
 <br>
 <br>
-<div class="video-container-wrapper">
+
 <div class="video-container">
-<iframe src="https://www.youtube.com/embed/n2p1Ys041Cw" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen">
-</iframe>
-</div>
+        <iframe src="https://www.youtube.com/embed/n2p1Ys041Cw" frameborder="0" allowfullscreen="allowfullscreen">
+        </iframe>
 </div>
 </div>
 </br>
@@ -358,12 +357,12 @@ Außerdem scheint das Überholen für die besten bzw. talentiersten Fahrer im Fe
 während Sie in der Realität nahezu jeden Fahrer ohne Probleme überholen können. 
 </p>
 <br>
-<div class="video-container-wrapper">
+
 <div class="video-container">
-<iframe src="https://www.youtube.com/embed/gR40_80qShg" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen">
-</iframe>
+        <iframe src="https://www.youtube.com/embed/gR40_80qShg" frameborder="0" allowfullscreen="allowfullscreen">
+        </iframe>
 </div>
-</div>
+
 <br>
 <br>
 <h2>Fazit</h2>

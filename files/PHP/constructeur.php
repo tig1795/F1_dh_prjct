@@ -1,7 +1,7 @@
 <?php
 include 'DBController.php';
 $db_handle = new DBController();
-$countryResult = $db_handle->runQuery("SELECT DISTINCT Constructor FROM f1_team_wm_standings ORDER BY Constructor ASC");
+$countryResult = $db_handle->runQuery("SELECT DISTINCT Champion FROM f1_team_wm_standings ORDER BY Champion ASC");
 ?>
 <html>
 <head>
@@ -227,7 +227,7 @@ require ( "funktionen.php" );
 $name_der_db  = "f1";
 $benutzer     = "root";
 $passwort     = "";
-$tabellenname = "users";
+$tabellenname = "f1_team_wm_standings";
 
 $link = our_sql_connect ( $server, $benutzer, $passwort, $name_der_db );
   
@@ -241,12 +241,12 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
     <form method="POST" name="search" action="constructeur.php">
         <div id="demo-grid">
             <div class="search-box">
-                <select id="Place" name="Constructor[]" multiple="multiple">
+                <select id="Place" name="Champion[]" multiple="multiple">
                     <option value="0" selected="selected">Select Constructor Champion</option>
                         <?php
                         if (! empty($countryResult)) {
                             foreach ($countryResult as $key => $value) {
-                                echo '<option value="' . $countryResult[$key]['Constructor'] . '">' . $countryResult[$key]['Constructor'] . '</option>';
+                                echo '<option value="' . $countryResult[$key]['Champion'] . '">' . $countryResult[$key]['Champion'] . '</option>';
                             }
                         }
                         ?>
@@ -255,33 +255,35 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
             </div>
             
                 <?php
-                if (! empty($_POST['Constructor'])) {
+                if (! empty($_POST['Champion'])) {
                     ?>
                     <table cellpadding="10" cellspacing="20">
 
                 <thead>
                     <tr>
-                        <th><strong>Constructor</strong></th>
-                        <th><strong>Country</strong></th>
-                        <th><strong>Titles</strong></th>
-                        <th><strong>Seasons</strong></th>
+                        <th><strong>Season</strong></th>
+                        <th><strong>GPs</strong></th>
+                        <th><strong>Champion</strong></th>
+                        <th><strong>Nationality</strong></th>
+                        <th><strong>Points</strong></th>
+                        <th><strong>Wins</strong></th>
                     </tr>
                 </thead>
                 <tbody>
                 <?php
                     $query = "SELECT * from f1_team_wm_standings";
                     $i = 0;
-                    $selectedOptionCount = count($_POST['Constructor']);
+                    $selectedOptionCount = count($_POST['Champion']);
                     $selectedOption = "";
                     while ($i < $selectedOptionCount) {
-                        $selectedOption = $selectedOption . "'" . $_POST['Constructor'][$i] . "'";
+                        $selectedOption = $selectedOption . "'" . $_POST['Champion'][$i] . "'";
                         if ($i < $selectedOptionCount - 1) {
                             $selectedOption = $selectedOption . ", ";
                         }
                         
                         $i ++;
                     }
-                    $query = $query . " WHERE Constructor in (" . $selectedOption . ")";
+                    $query = $query . " WHERE Champion in (" . $selectedOption . ")";
                     
                     $result = $db_handle->runQuery($query);
                 }
@@ -289,10 +291,12 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                     foreach ($result as $key => $value) {
                         ?>
                 <tr>
-                        <td><div class="col" id="user_data_1"><?php echo $result[$key]['Constructor']; ?> </div></td>
-                        <td><div class="col" id="user_data_2"><?php echo $result[$key]['Country']; ?> </div></td>
-                        <td><div class="col" id="user_data_3"><?php echo $result[$key]['Titles']; ?></div></td>
-                        <td><div class="col" id="user_data_4"><?php echo $result[$key]['Seasons']; ?> </div></td>
+                        <td><div class="col" id="user_data_1"><?php echo $result[$key]['Season']; ?> </div></td>
+                        <td><div class="col" id="user_data_2"><?php echo $result[$key]['GPs']; ?> </div></td>
+                        <td><div class="col" id="user_data_3"><?php echo $result[$key]['Champion']; ?></div></td>
+                        <td><div class="col" id="user_data_4"><?php echo $result[$key]['Nationality']; ?> </div></td>
+                        <td><div class="col" id="user_data_5"><?php echo $result[$key]['Points']; ?></div></td>
+                        <td><div class="col" id="user_data_6"><?php echo $result[$key]['Wins']; ?> </div></td>
                 </tr>
                 <?php
                     }

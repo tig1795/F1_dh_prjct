@@ -449,3 +449,11 @@ section{
 .nav-link a.active {
   color: red;
 }
+
+/*Schriftzug der Verlinkung zur Eingabeoberfläche für neue deutsche Meister*/ 
+.entry{
+    color:black;
+    background-color: white;
+    margin-left: 1%;
+    margin-right: 1%;
+}

@@ -13,7 +13,7 @@ $countryResult = $db_handle->runQuery("SELECT DISTINCT Champion FROM f1_driver_w
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../CSS/style2.0.css">
     <link rel="stylesheet" href="../../CSS/table.css">
-    <title>Responsive Navbar</title>
+    <title>Fahrerweltmeister</title>
 </head>
 
 <body>
@@ -248,7 +248,12 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 <br>
 <br>
 <br>
+<div class="entry">
+    <a style="color: black;" href="new_entry.php">Neuen Formel 1 Weltmeister eintragen</a>
+</div>
+<br>
     <h2>Alle Formel 1 Weltmeister der Geschichte</h2>
+<br>
     <form method="POST" name="search" action="index2.php">
         <div id="demo-grid">
             <div class="search-box">

@@ -37,8 +37,11 @@ if(isset($_GET['login'])) {  //Zuerst wird die Datenbank nach der entsprechenden
         $_SESSION['userid'] = $user['id'];
     //Sollte ein Nutzer gefunden worden sein und sollte zusätzlich das Passwort stimmen, 
     //wird die Session-Variable userid mit der ID des Benutzers registrieren.
-        die('Login erfolgreich. Weiter zur <a href="logged_in/test3.0.php">Startseite.</a>');
-    } else {
+    echo'Login erfolgreich.';
+
+    header("refresh:1.0; url=logged_in/test3.0.php");
+        
+    }else{
         $errorMessage = "E-Mail oder Passwort war ungültig<br>";
     }
 
@@ -46,6 +49,7 @@ if(isset($_GET['login'])) {  //Zuerst wird die Datenbank nach der entsprechenden
 ?>
 
 <?php
+
 if(isset($errorMessage)) {
     echo $errorMessage;
 }

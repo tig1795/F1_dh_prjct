@@ -1,0 +1,37 @@
+form {
+    margin: 0 auto;    /* Positionierung der Eingabeoberfläche */
+    max-width: 500px;
+}
+
+input { /* Design der Eingabeoberfläche */
+    border: 1px solid #ccc;
+    font-size: 22px;
+    font-size: var(--mobile-font-size);
+    padding: 15px;
+    width: 90%;
+    width: calc(100% - 30px); /* volle Breite minus Füllung */
+} 
+
+input[type=text]:not(:focus):invalid {
+    color: red;
+    outline-color: red;
+ } /* Rote Umfärbung der Eingabeleisten, bei fehlerhafter Eingabe. */
+
+input[type=submit]{ /* Design des Knopfes */
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #444;
+    cursor: pointer;
+    display: block;
+    font-size: 22px;
+    font-size: var(--mobile-font-size);
+    font-weight: 500;
+    margin: 3px 0 0 0;
+    padding: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+    color: white;
+}

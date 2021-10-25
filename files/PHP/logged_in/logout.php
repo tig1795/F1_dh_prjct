@@ -22,5 +22,7 @@
 session_start();
 session_destroy();  //Cookies und $_SESSION wird geleert.
  
-echo "Logout erfolgreich. Zurück zur <a href= ../test2.0.php> Startseite.</a>";
+echo'Sie wurden erfolgreich ausgeloggt.';
+
+header("refresh:1.0; url=../test2.0.php");
 ?>

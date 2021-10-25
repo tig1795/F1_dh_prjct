@@ -265,12 +265,12 @@ Im schwiergisten Modus, dem vierten Modus, gibt es keinerlei Fahrhilfen, wodurch
 vermittelt.
 <br>
 <br>
-<div class="video-container-wrapper">
+
 <div class="video-container">
-<iframe src="https://www.youtube.com/embed/ApgTin5OU8M" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen">
-</iframe>
+        <iframe src="https://www.youtube.com/embed/ApgTin5OU8M" frameborder="0" allowfullscreen="allowfullscreen">
+        </iframe>
 </div>
-</div>
+
 </div>
 <br>
 <br>
