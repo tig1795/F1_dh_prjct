@@ -164,13 +164,13 @@ body {
 }
 
 .resume .resume_right ul li .date {
-  font-size: 16px;
-  font-weight: 500;
-  margin-bottom: 15px;
+  font-size: 16px; /*Schriftgröße*/
+  font-weight: 500; /*Sichtbarkeit der Überschriften bei Team-Stationen und Meilensteine der Karriere*/
+  margin-bottom: 0px;
 }
 
 .resume .resume_right ul li .info {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .resume .resume_right ul li:last-child .info {

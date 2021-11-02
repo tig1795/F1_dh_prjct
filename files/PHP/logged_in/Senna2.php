@@ -456,7 +456,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
             <li>
               <div class="date">1991</div>
               <div class="info">
-                     <p class="semi-bold">Gewinn des letzten Formel 1 Weltmeistertitels mit McLaren</p> 
+                     <p class="semi-bold">Gewinn des dritten Formel 1 Weltmeistertitels</p> 
                   <p>Am 20. Oktober 1991 auf dem Suzuka International Racing Course in Japan</p>
                 </div>
             </li>

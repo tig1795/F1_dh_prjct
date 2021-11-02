@@ -250,7 +250,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
                <i class="fas fa-trophy"></i>
              </div>
              <div class="data">
-               7 Fahrerweltmeistertitel
+               7 Weltmeistertitel
              </div>
              </li>
            <li>

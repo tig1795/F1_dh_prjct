@@ -437,7 +437,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
               <div class="date">2013</div>
               <div class="info">
                      <p class="semi-bold">Rennsieg beim Großen Preis von Monaco</p> 
-                  <p>Am 26. Mai 2013, exakt 20 Jahre nach seinem Vater Keke, gewann Nico das prestigeträchtige Rennen auf dem Circuit de Monaco.</p>
+                  <p>Am 26. Mai 2013, exakt 20 Jahre nach seinem Vater Keke Rosberg.</p>
                 </div>
             </li>
             <li>

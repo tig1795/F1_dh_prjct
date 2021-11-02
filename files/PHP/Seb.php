@@ -420,8 +420,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
               <div class="date">2015–2020</div>
               <div class="info">
                      <p class="semi-bold">Scuderia Ferrari</p> 
-                  <p>Erster Sieg im zweiten Rennen für Ferrari am 29. März 2015 auf dem Sepang International Circuit (Malaysia)
-                     Es sollten noch 13 weitere für Ferrari folgen.</p>  
+                  <p>Erster Sieg im zweiten Rennen für Ferrari am 29. März 2015 auf dem Sepang International Circuit (Malaysia)</p>  
                 </div>
             </li>
             <li>
@@ -448,16 +447,14 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
               <div class="date">2010</div>
               <div class="info">
                      <p class="semi-bold">Gewinn des ersten Formel 1 Weltmeistertitels</p> 
-                  <p>Am 14. November 2010 auf dem Yas Marina Circuit in Abu Dhabi.
-                     Damit krönte sich Sebastian Vettel zum jüngsten Formel1-Weltmeister aller zeiten.</p>
+                  <p>Am 14. November 2010 auf dem Yas Marina Circuit in Abu Dhabi.</p>
                 </div>
             </li>
             <li>
               <div class="date">2013</div>
               <div class="info">
                      <p class="semi-bold">Gewinn des vierten Formel 1 Weltmeistertitels</p> 
-                  <p>Am 27. Oktober 2013 auf dem Buddh International Circuit in Indien.
-                    Mit seinem vierten Weltmeistertitel zog er mit Alain Prost gleich.</p>
+                  <p>Am 27. Oktober 2013 auf dem Buddh International Circuit in Indien.</p>
                 </div>
             </li>
         </ul>

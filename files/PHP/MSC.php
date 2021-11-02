@@ -455,7 +455,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
             <li>
               <div class="date">2000</div>
               <div class="info">
-                     <p class="semi-bold">Gewinn des ersten Formel 1 Weltmeistertitels mit Ferrari</p> 
+                     <p class="semi-bold">1. Formel 1 Weltmeistertitels mit Ferrari</p> 
                   <p>Am 8. Oktober 2000 auf dem Suzuka International Racing Course in Japan</p>
                 </div>
             </li>
@@ -463,8 +463,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
               <div class="date">2004</div>
               <div class="info">
                      <p class="semi-bold">Gewinn des siebten Formel 1 Weltmeistertitels</p> 
-                  <p>Am 29. August 2004 auf dem Circuit de Spa-Francorchamps in Belgien. Mit nun 7 Weltmeistertiteln ist 
-                    Michael Schumacher der alleinige Rekordweltmeister in der Formel 1.</p>
+                  <p>Am 29. August 2004 auf dem Circuit de Spa-Francorchamps in Belgien.</p>
               </div>
             </li>
         </ul>

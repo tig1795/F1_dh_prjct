@@ -260,7 +260,7 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 <br>    
 
         <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/UQ0OHBZSFfk" frameborder="0" allowfullscreen="allowfullscreen">
+        <iframe src="https://www.youtube.com/embed/UQ0OHBZSFfk?autoplay=1&rel=0" frameborder="0" allowfullscreen="allowfullscreen">
         </iframe>
         </div>
         </div>
