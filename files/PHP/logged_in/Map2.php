@@ -346,6 +346,10 @@ $username = "moeyskitchen";  //Wird nicht mehr benutzt, wird durch die userid ü
 		"<b>Brazilian Grand Prix </b> <p> Im Rennkalender: 1973–2019 <br> Streckenlänge: 4,309 km <br> Rennlänge: 305,909 km in 71 Runden <br> Rundenrekord: 1:10,540 (2018, Valtteri Bottas, Mercedes) <br> Rundenrekord Qualifikation: 1:07,281 (2018, <a href='LH2.php' style='color: black'>Lewis Hamilton</a>, Mercedes) <br> Die meisten Siege: <a href='Prost2.php' style='color: black'>Alain Prost</a> (6) <br> Die meisten Poles: <a href='Senna2.php' style='color: black'>Ayrton Senna (6)</a>"
 	).addTo(meineKarte);
 
+  var meinMarker = L.marker([25.486573627264672, 51.45339545200066]).bindPopup(
+		"<b>Grand Prix of Qatar / Doha </b> <p> Im Rennkalender: Seit 2021 <br> Streckenlänge: 5,380 km <br> Rennlänge: 306,660 km in 57 Runden <br> Rundenrekord: - <br> Rundenrekord Qualifikation: - <br> Die meisten Siege: - <br> Die meisten Poles: -"
+	).addTo(meineKarte);
+
   var meinMarker = L.marker([22.29758599323335, 40.4121185743208]).bindPopup(
 		"<b>Saudi Arabian Grand Prix </b> <p> Im Rennkalender: 2021 <br> Streckenlänge: 6,175 km <br> Rennlänge: - <br> Rundenrekord: - <br> Rundenrekord Qualifikation: - <br> Die meisten Siege: - <br> Die meisten Poles: -"
 	).addTo(meineKarte);
