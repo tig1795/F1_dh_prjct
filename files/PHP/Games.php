@@ -290,7 +290,7 @@ alle anderen Fahrzeugteile können nicht beschädigt werden.
 Dies ist ebenfalls etwas, was sehr weit von der Realität entfernt ist, 
 da bei echten Formel 1 Autos schon die kleinsten Berührungen reichen, um das Auto zu beschädigen.
 In seltenen Fällen kann es innerhalb des Spiels noch vorkommen, dass das Drag Reduction System (DRS) und das Energy Recovery System (ERS) kurzzeitig ausfällt. 
-Alle anderen Teile des Auto, wie zum Beispiel der Heckflügel oder die Seitenkästen, können nicht beschädigt werden. 
+Alle anderen Teile des Autos, wie zum Beispiel der Heckflügel oder die Seitenkästen, können nicht beschädigt werden. 
 </p>
 <br>
 <br>
@@ -315,7 +315,7 @@ Des Weiteren gibt es noch mehr Neuerungen, auf die im Folgenden eingegangen wird
 <h3>Fahrphysik</h3>
 <br>
 <p>Es ist nicht von der Hand zu weisen, dass das Fahrverhalten für F1 2021 noch einmal wesentlich verbessert wurde. 
-Beispielsweise sind die Rennwägen weitaus gutmütiger. Das heißt, dass es beispielsweise leichter geworden ist,
+Beispielsweise sind die Rennwagen weitaus gutmütiger. Das heißt, dass es beispielsweise leichter geworden ist,
 ein ausbrechendes Heck abzufangen und Fehler ohne Rückspulfunktion zumindest zu einem gewissen Grad zu korrigieren.
 Ob dies allerdings zu einer zunehmenden Realitätsnähe des Spiels beiträgt, kann durchaus bezweifelt werden.
 Dies liegt daran, dass es in der Realität sehr schwer ist Fahrfehler zu korrigieren und diese meistens in einem Unfall oder 
@@ -353,7 +353,7 @@ Generell ist das physikalische Verhalten bei Unfällen ebenfalls noch ein gutes 
 Auch was die KI des Spiels betrifft ist noch viel Verbesserungspotenzial vorhanden.
 Beispielsweise sind die gesetzten Bremspunkte, unabhängig davon welche Schwierigkeit man eingestellt hat,
 manchmal etwas unrealistisch gesetzt.
-Außerdem scheint das Überholen für die besten bzw. talentiersten Fahrer im Feld im Videospiel eine große Herausforderung darzustellen,
+Außerdem scheint das Überholen für die besten bzw. talentiertesten Fahrer im Feld im Videospiel eine große Herausforderung darzustellen,
 während Sie in der Realität nahezu jeden Fahrer ohne Probleme überholen können. 
 </p>
 <br>
@@ -369,7 +369,7 @@ während Sie in der Realität nahezu jeden Fahrer ohne Probleme überholen könn
 <br>
 <p>Grundsätzlich kann gesagt werden, dass eine positive Entwicklung hin zu 
 einem immer realitätstreueren Spielvergnügen durchaus vorhanden ist. Allerdings wird es noch lange dauern, bis
-man das Fahrverhalten der virutellen Rennwägen mit einem echten Formel 1 Rennwagen vergleichen kann.
+man das Fahrverhalten der virutellen Rennwagen mit einem echten Formel 1 Rennwagen vergleichen kann.
 Dies ist aber auch nicht der Anspruch dieser Art von Videospielen, da hier mehr der Spaß am spielen im Vordergrund
 steht als realitätsnähe. Deswegen werden diese Art von Videospielen auch als "Hybrid-Rennspiele" bezeichnet, da diese
 einer Kombination aus Spiel und Simulation entsprechen. Dementsprechend kann gesagt werden, für wen mehr der

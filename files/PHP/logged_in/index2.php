@@ -13,7 +13,7 @@ $countryResult = $db_handle->runQuery("SELECT DISTINCT Champion FROM f1_driver_w
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../CSS/style2.0.css">
     <link rel="stylesheet" href="../../CSS/table.css">
-    <title>Fahrerweltmeister</title>
+    <title>Alle Fahrer-Weltmeister der Formel 1 Geschichte</title>
 </head>
 
 <body>

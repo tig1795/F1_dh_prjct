@@ -257,7 +257,7 @@ Allerdings ist die Technik, auf welcher die KI basiert, keinesfalls revolutionä
 Sie basiert auf einer klassischen "Bestärktes-Lernen-Architektur".
 Es werden bestimmte Ziele gesetzt und die untrainierte Software bekommt Kontrolle über das Motorrad. 
 Das Training lief allerdings doch anders ab, als im Vergleich zum Training von Mustererkennungssystemen.
-Bei diesen erlernt die KI beispielsweise anhand von Tausenden von Katzenbildern eine Katze zu erkennen und ist im Anschluss daran selbst in der Lage Bilder von Katzen zu genrerieren. 
+Bei diesen erlernt die KI beispielsweise anhand von Tausenden von Katzenbildern eine Katze zu erkennen und ist im Anschluss daran selbst in der Lage Bilder von Katzen zu generieren. 
 Dagegen lernte ANNA selbst, wie sie eine gute Runde fährt. Dementsprechend wird die KI nicht mit Aufzeichnungen von guten Runden gefüttert, sondern die KI lernt von Grund auf und
 es werden gute Resultate belohnt und schlechte bestraft.<br>
 <br>

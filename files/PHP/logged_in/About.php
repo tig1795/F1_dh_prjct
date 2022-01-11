@@ -35,6 +35,9 @@
 <li>https://de.wikipedia.org/wiki/Liste_der_Formel-1-Weltmeister</li>
 <li>https://de.wikipedia.org/wiki/Formel-1-Statistik</li>
 <li>https://1e9.community/t/in-diesem-rennspiel-sitzt-eine-kuenstliche-intelligenz-am-steuer/619</li>
+<li>https://f1-insider.com/darum-ist-f1-2019-keine-realistische-simulation/</li>
+<li>https://www.pcgames.de/F1-2021-Spiel-73284/Tests/Review-Wertung-Codemasters-Racing-F1-Motorsport-1375733/</li>
+<li>https://f1-insider.com/racing-unleashed-formel-1-simulator-technik/</li>
 <br>
 
 </body>
