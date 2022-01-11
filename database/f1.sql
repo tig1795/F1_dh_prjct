@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 20. Aug 2021 um 11:16
+-- Erstellungszeit: 11. Jan 2022 um 16:31
 -- Server-Version: 10.4.16-MariaDB
 -- PHP-Version: 7.4.12
 
@@ -124,32 +124,83 @@ INSERT INTO `f1_driver_wm_standings` (`ID`, `Saison`, `GPs`, `Champion`, `Car`, 
 
 CREATE TABLE `f1_team_wm_standings` (
   `ID` int(11) NOT NULL,
-  `Constructor` varchar(255) NOT NULL,
-  `Country` varchar(255) NOT NULL,
-  `Titles` varchar(255) NOT NULL,
-  `Seasons` varchar(255) NOT NULL
+  `Season` varchar(255) NOT NULL,
+  `GPs` varchar(255) NOT NULL,
+  `Champion` varchar(255) NOT NULL,
+  `Nationality` varchar(255) NOT NULL,
+  `Points` varchar(255) NOT NULL,
+  `Wins` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Daten für Tabelle `f1_team_wm_standings`
 --
 
-INSERT INTO `f1_team_wm_standings` (`ID`, `Constructor`, `Country`, `Titles`, `Seasons`) VALUES
-(1, 'Ferrari', 'Italy', '16', '1961, 1964, 1975–1977, 1979, 1982, 1983, 1999–2004, 2007, 2008'),
-(2, 'Williams', 'Great Britain', '9', '1980, 1981, 1986, 1987, 1992–1994, 1996, 1997'),
-(3, 'McLaren', 'Great Britain', '8', '1974, 1984, 1985, 1988–1991, 1998 '),
-(4, 'Lotus', 'Great Britain', '7', '1963, 1965, 1968, 1970, 1972, 1973, 1978'),
-(5, 'Mercedes', 'Germany', '7', '2014 - 2020'),
-(6, 'Red Bull', 'Austria/Great Britain', '4', '2010–2013'),
-(7, 'Cooper', 'Great-Britain', '2', '1959, 1960'),
-(8, 'Brabham', 'Great-Britain', '2', '1966, 1967'),
-(9, 'Renault', 'France', '2', '2005, 2006'),
-(10, 'Vanwall', 'Great-Britain', '1', '1958'),
-(11, 'B.R.M', 'Great-Britain', '1', '1962'),
-(12, 'Matra Sports', 'France', '1', '1969'),
-(13, 'Tyrrell', 'Great-Britain', '1', '1971'),
-(14, 'Benetton', 'Italy/Great-Britain', '1', '1995'),
-(15, 'Brawn', 'Great-Britain', '1', '2009');
+INSERT INTO `f1_team_wm_standings` (`ID`, `Season`, `GPs`, `Champion`, `Nationality`, `Points`, `Wins`) VALUES
+(1, '1958', '11', 'Vanwall', 'Great Britain', '48', '6'),
+(2, '1959', '9', 'Cooper', 'Great Britain', '40', '5'),
+(3, '1960', '10', 'Cooper', 'Great Britain', '48', '6'),
+(4, '1961', '8', 'Scuderia Ferrari', 'Italy', '45', '5'),
+(5, '1962', '9', 'B.R.M.', 'Great Britain', '42', '4'),
+(6, '1963', '10', 'Lotus', 'Great Britain', '54', '7'),
+(7, '1964', '10', 'Scuderia Ferrari', 'Italy', '45', '3'),
+(8, '1965', '10', 'Lotus', 'Great Britain', '54', '6'),
+(9, '1966', '9', 'Brabham', 'Great Britain', '42', '4'),
+(10, '1967', '11', 'Brabham', 'Great Britain', '63', '4'),
+(11, '1968', '12', 'Lotus', 'Great Britain', '62', '5'),
+(12, '1969', '11', 'Matra', 'France', '66', '6'),
+(13, '1970', '13', 'Lotus', 'Great Britain', '59', '6'),
+(14, '1971', '11', 'Tyrell', 'Great Britain', '73', '7'),
+(15, '1972', '12', 'Lotus', 'Great Britain', '61', '5'),
+(16, '1973', '15', 'Lotus', 'Great Britain', '92', '7'),
+(17, '1974', '15', 'McLaren', 'Great Britain', '73', '4'),
+(18, '1975', '14', 'Scuderia Ferrari', 'Italy', '72,5', '6'),
+(19, '1976', '16', 'Scuderia Ferrari', 'Italy', '83', '6'),
+(20, '1977', '17', 'Scuderia Ferrari', 'Italy', '95', '4'),
+(21, '1978', '16', 'Lotus', 'Great Britain', '86', '8'),
+(22, '1979', '15', 'Scuderia Ferrari', 'Italy', '113', '6'),
+(23, '1980', '14', 'Williams', 'Great Britain', '120', '6'),
+(24, '1981', '15', 'Williams', 'Great Britain', '95', '4'),
+(25, '1982', '16', 'Scuderia Ferrari', 'Italy', '74', '3'),
+(26, '1983', '15', 'Scuderia Ferrari', 'Italy', '89', '4'),
+(27, '1984', '16', 'McLaren', 'Great Britain', '143,5', '12'),
+(28, '1985', '16', 'McLaren', 'Great Britain', '90', '6'),
+(29, '1986', '16', 'Williams', 'Great Britain', '141', '9'),
+(30, '1987', '16', 'Williams', 'Great Britain', '137', '9'),
+(31, '1988', '16', 'McLaren', 'Great Britain', '199', '15'),
+(32, '1989', '16', 'McLaren', 'Great Britain', '141', '10'),
+(33, '1990', '16', 'McLaren', 'Great Britain', '121', '6'),
+(34, '1991', '16', 'McLaren', 'Great Britain', '139', '8'),
+(35, '1992', '16', 'Williams', 'Great Britain', '164', '10'),
+(36, '1993', '16', 'Williams', 'Great Britain', '168', '10'),
+(37, '1994', '16', 'Williams', 'Great Britain', '118', '7'),
+(38, '1995', '17', 'Benetton', 'Great Britain', '137', '11'),
+(39, '1996', '16', 'Williams', 'Great Britain', '175', '12'),
+(40, '1997', '17', 'Williams', 'Great Britain', '123', '8'),
+(41, '1998', '16', 'McLaren', 'Great Britain', '156', '9'),
+(42, '1999', '16', 'Scuderia Ferrari', 'Italy', '128', '6'),
+(43, '2000', '17', 'Scuderia Ferrari', 'Italy', '170', '10'),
+(44, '2001', '17', 'Scuderia Ferrari', 'Italy', '179', '9'),
+(45, '2002', '17', 'Scuderia Ferrari', 'Italy', '221', '15'),
+(46, '2003', '16', 'Scuderia Ferrari', 'Italy', '158', '8'),
+(47, '2004', '18', 'Scuderia Ferrari', 'Italy', '262', '15'),
+(48, '2005', '19', 'Renault', 'France', '191', '8'),
+(49, '2006', '18', 'Renault', 'France', '206', '8'),
+(50, '2007', '17', 'Scuderia Ferrari', 'Italy', '204', '9'),
+(51, '2008', '18', 'Scuderia Ferrari', 'Italy', '172', '8'),
+(52, '2009', '17', 'Brawn', 'Great Britain', '172', '8'),
+(53, '2010', '19', 'Red Bull', 'Austria', '498', '9'),
+(54, '2011', '19', 'Red Bull', 'Austria', '650', '12'),
+(55, '2012', '20', 'Red Bull', 'Austria', '460', '7'),
+(56, '2013', '19', 'Red Bull', 'Austria', '596', '13'),
+(57, '2014', '19', 'Mercedes', 'Germany', '701', '16'),
+(58, '2015', '19', 'Mercedes', 'Germany', '703', '16'),
+(59, '2016', '21', 'Mercedes', 'Germany', '765', '19'),
+(60, '2017', '20', 'Mercedes', 'Germany', '668', '12'),
+(61, '2018', '21', 'Mercedes', 'Germany', '655', '11'),
+(62, '2019', '21', 'Mercedes', 'Germany', '739', '15'),
+(63, '2020', '17', 'Mercedes', 'Germany', '547', '13'),
+(64, '2021', '23', 'Red-Bull Racing', 'Netherlands', '500', '23');
 
 -- --------------------------------------------------------
 
@@ -172,7 +223,13 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `passwort`, `vorname`, `nachname`, `created_at`, `updated_at`) VALUES
-(1, 'manni@t-online.de', '$2y$10$OB3UNPieV3jKDEWhrsiBAeBKKzpCZJKvABZlTe.rDUFKQoEmQI.5S', 'Timo', 'Günther', '2021-08-10 13:36:50', '2021-08-10 13:36:50');
+(1, 'manni@t-online.de', '$2y$10$OB3UNPieV3jKDEWhrsiBAeBKKzpCZJKvABZlTe.rDUFKQoEmQI.5S', 'Timo', 'Günther', '2021-08-10 13:36:50', '2021-08-10 13:36:50'),
+(2, 'schmitt@gmx.net', '$2y$10$gFjnc2pJbeiXfe3CYgTMyeECKKhN/1tOCQ1DgIJ3/ol9tr9DTbQNG', 'Harald', 'Schmitt', '2021-10-11 12:07:22', '2021-10-11 12:07:22'),
+(3, 'bhein@gutelaune.de', '$2y$10$L1tqynMCTOK2zYIVm.NLlOw9d6MX7EG6bmpoFokpXWtKOW0CkxGk2', 'Becci', 'Hein', '2021-10-11 14:33:40', '2021-10-11 14:33:40'),
+(4, 'mm@web.de', '$2y$10$UKGQY1UsG1PeliGzUKT0G..4G9eCEvjlvVPe0PzaRVNR98u3RFxQC', 'Max', 'Mustermann', '2021-10-15 09:21:56', '2021-10-15 09:21:56'),
+(5, 'sly@web.de', '$2y$10$gvsAppmBlzoVwLxMBYTPrunACCT/GccGFdLHrerDMEmCr632L/CHW', 'Sylvester', 'Stallone', '2021-10-15 11:08:07', '2021-10-15 11:08:07'),
+(6, 'jok@gmx.de', '$2y$10$pdMdfK7xGAmUhYLGsVDkXeEMRO3kHMXzm145rPhqC1klfL3hR8eo6', 'Jo', 'Kimmich', '2021-10-15 11:08:50', '2021-10-15 11:08:50'),
+(7, 't.g@t-online.de', '$2y$10$0nkOJg6ZNmAQ.fzhCl51n.KWnEajzfi.sR7Y5cA.Q1sfBldIheUmK', 'dieter', 'halla', '2021-11-16 15:22:16', '2021-11-16 15:22:16');
 
 --
 -- Indizes der exportierten Tabellen
@@ -204,13 +261,19 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT für Tabelle `f1_driver_wm_standings`
 --
 ALTER TABLE `f1_driver_wm_standings`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=76;
+
+--
+-- AUTO_INCREMENT für Tabelle `f1_team_wm_standings`
+--
+ALTER TABLE `f1_team_wm_standings`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
 
 --
 -- AUTO_INCREMENT für Tabelle `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
