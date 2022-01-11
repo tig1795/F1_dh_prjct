@@ -1,6 +1,6 @@
 # F1_dh_prjct
 
-Die Website wurde mit Hilfe eines Xampp-Servers erstellt.
+Die Webseite wurde mit Hilfe eines Xampp-Servers erstellt.
 
 Zum Import der Datenbank in PhpmyAdmin:
 
