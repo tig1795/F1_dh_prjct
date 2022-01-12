@@ -10,6 +10,6 @@ Zum Import der Datenbank in PhpmyAdmin:
 Unter <i>files</i> sind alle relevanten Dateien zur Webseite zu finden, unterteilt in CSS, PHP und JavaScript Dateien. </br>
 Der Ordner <i>images</i> beinhaltet alle Bilder, die auf der Webseite verwendet werden. 
 
-GitHub-Repository: 
+GitHub-Repository: https://github.com/tig1795/F1_dh_prjct
 
 
